@@ -2,9 +2,17 @@
 <head>
     {% block head %}
     {% endblock %}
+
+    <link href="{{ SITEURL }}/theme/css/pygment-solarized-dark.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <h1>Eric Carmichael</h1>
+    <h1>{{ SITENAME }}</h1>
+
+    <ul>
+        {% for page in pages %}
+            <li>{{ page.title }}</li>
+        {% endfor %}
+    </ul>
 
     {% block content %}
     {% endblock %}
