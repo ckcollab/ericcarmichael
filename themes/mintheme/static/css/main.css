@@ -28,11 +28,15 @@ pre {
   display: inline;
   margin-right: 10px;
 }
+.article {
+  padding-bottom: 60px;
+}
 .article .title {
   border-bottom: 1px solid #1b1b1b;
 }
-.older_newer_links {
-  margin-top: 25px;
+.article .date {
+  margin-top: 20px;
+  color: #2b2b2b;
 }
 .footer {
   padding-top: 120px;
