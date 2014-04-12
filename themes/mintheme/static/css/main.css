@@ -54,6 +54,10 @@ code {
 .article .tags a {
   color: #277a94;
 }
+.article h2 {
+  margin-top: 50px;
+  color: #9c9c9c;
+}
 .footer {
   padding-top: 120px;
 }

@@ -3,6 +3,10 @@
 from __future__ import unicode_literals
 import os
 
+#from jinja2 import Environment as Jinja2Environment
+#from webassets import Environment as AssetsEnvironment
+#from webassets.ext.jinja2 import AssetsExtension
+
 AUTHOR = u'Eric Carmichael'
 SITENAME = u"Eric Carmichael's Nerdery"
 SITEURL = os.environ.get("PELICAN_SITE_URL", "")
@@ -34,3 +38,14 @@ RELATIVE_URLS = True
 GITHUB_URL = 'http://github.com/ckcollab/'
 THEME = "themes/mintheme"
 PATH = "content"
+PLUGINS = ["plugins.assets"]
+WEBASSETS = True
+'''
+assets_env = AssetsEnvironment('./static/media', '/media')
+jinja2_env = Jinja2Environment(extensions=[AssetsExtension])
+jinja2_env.assets_environment = assets_env
+
+JINJA_EXTENSIONS = []
+JINJA_EXTENSIONS.append(AssetsExtension)
+print JINJA_EXTENSIONS
+'''

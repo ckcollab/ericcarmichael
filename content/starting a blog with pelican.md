@@ -9,25 +9,43 @@ that has the bare minimum to poop out content from markdown.
 
 Then I finally found [Pelican](https://github.com/getpelican/pelican) and it seems to satisfy all of my needs: python, ultra simple integration with [heroku](http://heroku.com/) via [this buildout](https://github.com/getpelican/heroku-buildpack-pelican)!
 
-##Configuring
+
+## Configuring
 
 awjefawej
 
-##Developing
-Developing is a piece of cake with
+
+## Development
+
+### Testing locally
 
     :::bash
     > make regenerate
 
 Any time you make a change to a piece of content the site is rebuilt.
 
-##Theming
+### Project structure
+
+/content/
+
+
+## Theming
 asdf
 
+### Theme folder structure
 
-##Deploying
+### Adding tags
+
+### Adding page links
+
+###
+
+
+## Deploying
 Deploying is easy with a simple
 
-    git push heroku master
+    > git push heroku master
 
-    
+### Compressing CSS/JS
+
+I used
