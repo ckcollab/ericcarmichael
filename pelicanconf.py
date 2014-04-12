@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 AUTHOR = u'Eric Carmichael'
 SITENAME = u"Eric Carmichael's Nerdery"
-SITEURL = 'http://ericcarmichael.com'
+SITEURL = os.environ.get("PELICAN_SITE_URL", "")
 
 TIMEZONE = 'Europe/Paris'
 
@@ -28,7 +29,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 GITHUB_URL = 'http://github.com/ckcollab/'
 THEME = "themes/mintheme"
