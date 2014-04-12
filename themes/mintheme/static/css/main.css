@@ -31,6 +31,9 @@ pre {
 .article .title {
   border-bottom: 1px solid #1b1b1b;
 }
+.older_newer_links {
+  margin-top: 25px;
+}
 .footer {
   padding-top: 120px;
 }
