@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Eric Carmichael'
 SITENAME = u"Eric Carmichael's Nerdery"
-SITEURL = ''
+SITEURL = 'http://ericcarmichael.com'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -32,3 +32,4 @@ DEFAULT_PAGINATION = 5
 
 GITHUB_URL = 'http://github.com/ckcollab/'
 THEME = "theme"
+PATH = "content"
