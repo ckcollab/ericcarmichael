@@ -4,17 +4,28 @@
     {% endblock %}
 
     <link href="{{ SITEURL }}/theme/css/pygment-solarized-dark.css" rel="stylesheet" type="text/css"/>
+    <link href="{{ SITEURL }}/theme/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <h1>{{ SITENAME }}</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <h1>{{ SITENAME }}</h1>
+            </div>
+
+        </div>
+    </div>
+
 
     <ul>
         {% for page in pages %}
-            <li>{{ page.title }}</li>
+            <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
         {% endfor %}
     </ul>
 
     {% block content %}
     {% endblock %}
+
+    <p>created with love by <a href="mailto:eric@ckcollab.com">eric carmichael</a></p>
 </body>
 </html>

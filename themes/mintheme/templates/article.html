@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <a href="{{ SITEURL }}/{{ article.url }}"><h3>{{ article.title }}</h3></a>
+    <h3>{{ article.title }}</h3>
 
     {{ article.content }}
+
+    {{ article.date|strftime('%d %B %Y') }}
 {% endblock %}
