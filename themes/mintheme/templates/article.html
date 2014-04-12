@@ -1,9 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h3>{{ article.title }}</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>{{ article.title }}</h3>
 
-    {{ article.content }}
+                {{ article.content }}
 
-    {{ article.date|strftime('%d %B %Y') }}
+                {{ article.date|strftime('%d %B %Y') }}
+            </div>
+        </div>
+    </div>
 {% endblock %}
