@@ -31,5 +31,5 @@ DEFAULT_PAGINATION = 5
 #RELATIVE_URLS = True
 
 GITHUB_URL = 'http://github.com/ckcollab/'
-THEME = "theme"
+THEME = "themes/mintheme"
 PATH = "content"
