@@ -10,6 +10,7 @@ pre {
 }
 .header {
   font-weight: 200 !important;
+  margin-bottom: 30px;
 }
 .header .eric {
   float: left;
