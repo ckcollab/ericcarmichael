@@ -5,10 +5,12 @@
 
     {{ article.content }}
 
+    <div class="date">&mdash; {{ article.date|strftime('%d %B %Y') }}</div>
+
     <div class="tags">
+        <i class="fa fa-tags"></i>
         {% for tag, articles in tags|sort %}
-            {{ tag }}
+            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
         {% endfor %}
     </div>
-    <div class="date">&mdash; {{ article.date|strftime('%d %B %Y') }}</div>
 </div>

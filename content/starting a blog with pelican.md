@@ -9,13 +9,25 @@ that has the bare minimum to poop out content from markdown.
 
 Then I finally found [Pelican](https://github.com/getpelican/pelican) and it seems to satisfy all of my needs: python, ultra simple integration with [heroku](http://heroku.com/) via [this buildout](https://github.com/getpelican/heroku-buildpack-pelican)!
 
-##Developing
-Developing is a piece of cake with `make regenerate`, I had to install [apache-ant](https://ant.apache.org/) with [win-ant](https://code.google.com/p/winant/).
+##Configuring
 
+awjefawej
+
+##Developing
+Developing is a piece of cake with
+
+    :::bash
+    > make regenerate
+
+Any time you make a change to a piece of content the site is rebuilt.
 
 ##Theming
 asdf
 
 
 ##Deploying
-Deploying is easy with a simple `git push heroku master`!
+Deploying is easy with a simple
+
+    git push heroku master
+
+    
