@@ -1,17 +1,55 @@
 body {
     background-color: #0a0a0a;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    padding-bottom: 60px;
 }
 
 pre { border: 1px solid rgba(204, 204, 204, 0.1); }
 
-.menu {
-    ul {
-        list-style-type: none;
+.header {
+    font-weight: 200 !important;
 
-        li { display: inline; }
+    .eric {
+        float: left;
+        margin: 15px;
+    }
+    .title {
+        margin-top: 48px;
+        color: rgb(77, 77, 77);
+        font-weight: 200 !important;
+    }
+
+    .menu {
+        ul {
+            list-style-type: none;
+
+            li {
+                display: inline;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.article {
+    .title {
+        border-bottom: 1px solid rgb(27, 27, 27);
     }
 }
 
 .footer {
     padding-top: 120px;
+
+    .fa {
+        margin-left: 5px;
+        &:hover {
+            color: #63bdff;
+        }
+    }
+
+    .fa-twitter { color: #4099ff; }
+    .fa-linkedin { color: #0e76a8; }
+    .fa-github { color: rgb(122, 122, 122); }
 }

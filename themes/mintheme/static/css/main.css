@@ -1,15 +1,50 @@
 body {
   background-color: #0a0a0a;
+  font-family: 'Raleway', sans-serif;
+  color: #666666;
+  font-size: 18px;
+  padding-bottom: 60px;
 }
 pre {
   border: 1px solid rgba(204, 204, 204, 0.1);
 }
-.menu ul {
+.header {
+  font-weight: 200 !important;
+}
+.header .eric {
+  float: left;
+  margin: 15px;
+}
+.header .title {
+  margin-top: 48px;
+  color: #4d4d4d;
+  font-weight: 200 !important;
+}
+.header .menu ul {
   list-style-type: none;
 }
-.menu ul li {
+.header .menu ul li {
   display: inline;
+  margin-right: 10px;
+}
+.article .title {
+  border-bottom: 1px solid #1b1b1b;
 }
 .footer {
   padding-top: 120px;
+}
+.footer .fa {
+  margin-left: 5px;
+}
+.footer .fa:hover {
+  color: #63bdff;
+}
+.footer .fa-twitter {
+  color: #4099ff;
+}
+.footer .fa-linkedin {
+  color: #0e76a8;
+}
+.footer .fa-github {
+  color: #7a7a7a;
 }

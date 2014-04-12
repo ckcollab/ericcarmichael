@@ -1,0 +1,9 @@
+<div class="article">
+    <a href="{{ SITEURL }}/{{ article.url }}">
+        <h1 class="title">{{ article.title }}</h1>
+    </a>
+
+    {{ article.content }}
+
+    &mdash; {{ article.date|strftime('%d %B %Y') }}
+</div>
