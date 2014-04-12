@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <a href="{{ SITEURL }}/{{ article.url }}"><h3>{{ article.title }}</h3></a>
+
+    {{ article.content }}
+{% endblock %}
