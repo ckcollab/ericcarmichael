@@ -1,0 +1,15 @@
+Title: Starting a blog with Pelican
+Date: 2014-4-12 0:30
+
+Deciding what static site generator to use was tricky. The first option was [Jekyll](http://jekyllrb.com/) which is ruby
+and I'm looking for something python. Next I looked at [Hyde](https://github.com/lakshmivyas/hyde) but that had the
+, in my opinion, extra requirement of [Django](https://www.djangoproject.com/). I feel like I need something super simple
+that has the bare minimum.
+
+Then I finally found [Pelican](https://github.com/getpelican/pelican) and it seems to satisfy all of my needs: python, ultra simple integration with [heroku](http://heroku.com/) via [this buildout](https://github.com/getpelican/heroku-buildpack-pelican)!
+
+Deploying is easy with a simple `git push heroku master`!
+
+Developing is a piece of cake with `make regenerate`, I had to install [apache-ant](https://ant.apache.org/) with [win-ant](https://code.google.com/p/winant/).
+
+
