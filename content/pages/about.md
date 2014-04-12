@@ -3,7 +3,7 @@ Title: About
 Who?
 ====
 
-I am bleh blah asdfassafd
+My name
 
 
 Where?
