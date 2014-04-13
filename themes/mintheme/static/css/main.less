@@ -17,8 +17,31 @@ h1, h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
 }
-h1 { font-size: 60px; }
+h1 { font-size: 60px; border-bottom: 1px solid rgb(27, 27, 27); }
 h2 { font-size: 48px; }
+
+@media all and (max-width: 995px) {
+    h1 { font-size: 50px; }
+}
+
+@media all and (max-width: 660px) {
+    .header {
+        text-align: center;
+
+        .eric {
+            float: none !important;
+        }
+        .menu {
+            ul {
+                padding: 0;
+                font-size: 24px;
+                li {
+                    margin-right: 20px !important;
+                }
+            }
+        }
+    }
+}
 
 .header {
     font-family: 'Raleway', sans-serif;
@@ -33,6 +56,7 @@ h2 { font-size: 48px; }
         margin-top: 35px;
         color: rgb(77, 77, 77);
         font-weight: 200 !important;
+        border-bottom: 0;
     }
 
     .menu {
@@ -42,6 +66,9 @@ h2 { font-size: 48px; }
             li {
                 display: inline;
                 margin-right: 10px;
+                &:last-child {
+                    margin-right: 0;
+                }
             }
         }
     }
@@ -50,9 +77,6 @@ h2 { font-size: 48px; }
 .article {
     padding-bottom: 60px;
 
-    .title {
-        border-bottom: 1px solid rgb(27, 27, 27);
-    }
     .date {
         margin-top: 20px;
         color: rgb(43, 43, 43);
