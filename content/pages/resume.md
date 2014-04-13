@@ -20,9 +20,11 @@ or what color is needed!
 
 I constantly strive to make myself better, I track my strength gains with an app I made called Personal Record.
 
+<a href="https://github.com/ckcollab/chin-up">
 <div class="text-center" markdown="1">
 ![Chin Up mood tracker](|filename|/images/chinup.png)
 </div>
+</a>
 
 I make the best of every day by tracking my mood with another personal app I made called [chin-up](https://github.com/ckcollab/chin-up).
 
@@ -31,10 +33,11 @@ Life goals, etc.). Each metric is rated 1-10 and has an optional notes field. I 
 encourage consistent usage.
 
 
+<a href="https://scrapbin.com/">
 <div class="text-center" markdown="1">
 ![ScrapBin material exchange](|filename|/images/scrapbin.png)
 </div>
-
+</a>
 
 
 I worked with a great team on [ScrapBin](http://scrapbin.com), the coolest thing I did there were to convince the team lead
