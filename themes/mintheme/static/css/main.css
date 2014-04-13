@@ -101,7 +101,8 @@ h2 {
   color: #4f6275;
 }
 .article img {
-  text-align: center;
+  padding: 10px;
+  border: 1px solid #cccccc;
 }
 .footer {
   padding-top: 120px;
