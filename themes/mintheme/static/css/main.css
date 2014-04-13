@@ -32,6 +32,10 @@ h1 {
 h2 {
   font-size: 48px;
 }
+img {
+  padding: 10px;
+  border: 1px solid #cccccc;
+}
 @media all and (max-width: 995px) {
   h1 {
     font-size: 50px;
@@ -60,6 +64,7 @@ h2 {
 .header .eric {
   float: left;
   margin: 15px;
+  border: 0;
 }
 .header .title {
   margin-top: 35px;
@@ -99,10 +104,6 @@ h2 {
 .article h3 {
   margin-top: 25px;
   color: #4f6275;
-}
-.article img {
-  padding: 10px;
-  border: 1px solid #cccccc;
 }
 .footer {
   padding-top: 120px;
