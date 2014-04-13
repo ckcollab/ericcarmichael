@@ -103,6 +103,9 @@ h2 {
 .footer {
   padding-top: 120px;
 }
+.footer .credit {
+  font-size: 12px;
+}
 .footer .fa {
   margin-left: 5px;
 }
