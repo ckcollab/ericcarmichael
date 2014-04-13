@@ -130,7 +130,7 @@ To the bottom of `article.html` I added:
             var disqus_shortname = 'ericcarmichaelsnerdery';
             var disqus_identifier = '{{ article.url }}';
             var disqus_title = '{{ article.title }}';
-            var disqus_url = '{{ SITEURL }}/{{ article.url }}';
+            var disqus_url = 'http://ericcarmichael.com/{{ article.url }}';
 
             (function() {
                 var dsq = document.createElement('script');
