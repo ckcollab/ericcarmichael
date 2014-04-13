@@ -2,11 +2,14 @@ title: resume
 
 # Skills
 
-**Primaryt** &mdash; on the backend writing [django-rest-framework](http://www.django-rest-framework.org/)
+### Primarily backend
+I like writing [django-rest-framework](http://www.django-rest-framework.org/)
 API's and unit tests. I love making things fast by adding caching at key points and using [celery](http://www.celeryproject.org/) to queue up tasks
 asynchronously.
 
-**Secondary** &mdash;  in the JavaScript frontend plugging things in and making them work, usually with [AngularJS](http://angularjs.org/) or [KnockoutJS](http://knockoutjs.com/).
+### Secondarily frontend
+
+I enjoy plugging things in and making them work, usually with [AngularJS](http://angularjs.org/) or [KnockoutJS](http://knockoutjs.com/).
 
 I'm not a very talented (to put it nicely) designer, I don't have the best style. I work best when I can rely on someone who's great at
 design to polish features, that way I can worry about making things work and not about how many pixels of margin
@@ -21,9 +24,9 @@ I constantly strive to make myself better, I track my strength gains with an app
 ![Chin Up mood tracker](|filename|/images/chinup.png)
 </div>
 
-I make the best of every day by tracking my mood with another personal app I made called Chin Up.
+I make the best of every day by tracking my mood with another personal app I made called [chin-up](https://github.com/ckcollab/chin-up).
 
-With Chin Up I track some daily metrics (Strength, Flexibility, Relationships) as well as monthly overall metrics (Nature,
+With chin-up I track some daily metrics (Strength, Flexibility, Relationships) as well as monthly overall metrics (Nature,
 Life goals, etc.). Each metric is rated 1-10 and has an optional notes field. I wanted it to be as simple as possible to
 encourage consistent usage.
 
