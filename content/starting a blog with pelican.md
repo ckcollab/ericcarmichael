@@ -1,6 +1,6 @@
 Title: Starting a blog with Pelican
 Date: 2014-4-12 0:30
-Tags: pelican, python, blogging
+Tags: pelican, python, blogging, heroku, disqus, webassets
 
 Deciding what static site generator to use was tricky. The first option was [Jekyll](http://jekyllrb.com/) which is ruby
 and I'm looking for something python. Next I looked at [Hyde](https://github.com/lakshmivyas/hyde) but that had the

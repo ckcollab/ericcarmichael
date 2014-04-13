@@ -1,5 +1,6 @@
 body {
   background-color: #0a0a0a;
+  font-family: 'Merriweather', serif;
   color: #666666;
   font-size: 16px;
   padding-bottom: 60px;
@@ -51,7 +52,6 @@ h2 {
   margin-right: 10px;
 }
 .article {
-  font-family: 'Merriweather', serif;
   padding-bottom: 60px;
 }
 .article .title {
