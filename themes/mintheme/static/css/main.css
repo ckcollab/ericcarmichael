@@ -1,8 +1,11 @@
 body {
   background-color: #0a0a0a;
   color: #666666;
-  font-size: 18px;
+  font-size: 16px;
   padding-bottom: 60px;
+}
+p {
+  line-height: 30px;
 }
 pre {
   border: 1px solid rgba(204, 204, 204, 0.1);
@@ -16,11 +19,7 @@ code {
   border: 1px solid rgba(204, 204, 204, 0.05);
 }
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
 }
@@ -76,6 +75,7 @@ h2 {
 }
 .article h3 {
   margin-top: 25px;
+  color: #4f6275;
 }
 .footer {
   padding-top: 120px;
