@@ -12,8 +12,7 @@ asynchronously.
 I enjoy plugging things in and making them work, usually with [AngularJS](http://angularjs.org/) or [KnockoutJS](http://knockoutjs.com/).
 
 I'm not a very talented (to put it nicely) designer, I don't have the best style. I work best when I can rely on someone who's great at
-design to polish features, that way I can worry about making things work and not about how many pixels of margin
-or what color is needed!
+design to polish features, that way I can worry about making things work and they can worry about how things look!
 
 
 # Work
