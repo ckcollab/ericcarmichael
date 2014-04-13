@@ -52,12 +52,12 @@ Any time you make a change to a piece of content the site is rebuilt.
 This is what I ended up with for a rough rough draft, from examples in [pelican-themes](https://github.com/getpelican/pelican-themes)
 
     mytheme/
-    ├── static
-    │   └── css
-    │   └── fonts
-    │   └── images
-    ├── templates
-    │   └── includes
+    ├── static/
+    │   └── css/
+    │   └── fonts/
+    │   └── images/
+    ├── templates/
+    │   └── includes/
     │        └── _article.html
     │   └── article.html
     │   └── base.html
