@@ -89,6 +89,9 @@ h2 {
 .footer .fa:hover {
   color: #63bdff;
 }
+.footer .fa-rss {
+  color: #FF6600;
+}
 .footer .fa-twitter {
   color: #4099ff;
 }
