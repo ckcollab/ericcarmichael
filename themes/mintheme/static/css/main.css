@@ -1,6 +1,5 @@
 body {
   background-color: #0a0a0a;
-  font-family: 'Raleway', sans-serif;
   color: #666666;
   font-size: 18px;
   padding-bottom: 60px;
@@ -16,7 +15,23 @@ code {
   color: #839496;
   border: 1px solid rgba(204, 204, 204, 0.05);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 48px;
+}
 .header {
+  font-family: 'Raleway', sans-serif;
   font-weight: 200 !important;
   margin-bottom: 30px;
 }
@@ -37,6 +52,7 @@ code {
   margin-right: 10px;
 }
 .article {
+  font-family: 'Merriweather', serif;
   padding-bottom: 60px;
 }
 .article .title {
@@ -55,8 +71,11 @@ code {
   color: #277a94;
 }
 .article h2 {
-  margin-top: 50px;
+  margin-top: 60px;
   color: #9c9c9c;
+}
+.article h3 {
+  margin-top: 25px;
 }
 .footer {
   padding-top: 120px;
