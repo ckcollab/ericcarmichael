@@ -20,10 +20,12 @@ design to polish features, that way I can worry about making things work and the
 I constantly strive to make myself better, I track my strength gains with an app I made called Personal Record.
 
 <a href="https://github.com/ckcollab/chin-up">
-<div class="text-center" markdown="1">
+<div class="text-center image-border" markdown="1">
 ![Chin Up mood tracker](|filename|/images/chinup.png)
 </div>
 </a>
+
+### chin-up
 
 I make the best of every day by tracking my mood with another personal app I made called [chin-up](https://github.com/ckcollab/chin-up).
 
@@ -33,11 +35,12 @@ encourage consistent usage.
 
 
 <a href="https://scrapbin.com/">
-<div class="text-center" markdown="1">
+<div class="text-center image-border" markdown="1">
 ![ScrapBin material exchange](|filename|/images/scrapbin.png)
 </div>
 </a>
 
+### ScrapBin.com
 
 I worked with a great team on [ScrapBin](http://scrapbin.com), the coolest thing I did there were to convince the team lead
 to switch from Drupal to Django with a quick prototype that had features to search, display results on a map and have

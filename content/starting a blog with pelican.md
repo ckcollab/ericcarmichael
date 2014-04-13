@@ -49,7 +49,7 @@ Any time you make a change to a piece of content the site is rebuilt.
 
 ### Theme folder structure
 
-This is what I ended up with for a rough rough draft, from examples in [pelican-themes](https://github.com/getpelican/pelican-themes)
+This is what I ended up with for a rough rough draft, from examples in [pelican-themes](https://github.com/getpelican/pelican-themes) repo
 
     mytheme/
     ├── static/
