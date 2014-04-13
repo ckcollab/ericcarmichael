@@ -66,7 +66,7 @@ This is what I ended up with for a rough rough draft, from examples in [pelican-
 
 ### Adding tags
 
-I added this to the bottom of my `_article.html`
+Added this to the bottom of my `_article.html`
 
     :::django
     {% if article.tags %}
@@ -107,7 +107,7 @@ Added this to my menu, the "blog" is just a link back to index, so I added that 
 
 ### Compressing CSS/JS
 
-I used the assets plugin from [pelican-plugins](https://github.com/getpelican/pelican-plugins) which requires the [webassets](https://github.com/miracle2k/webassets) python module.
+Used the assets plugin from [pelican-plugins](https://github.com/getpelican/pelican-plugins) which requires the [webassets](https://github.com/miracle2k/webassets) python module.
 
     :::django
     {% assets filters="cssmin", output="css/packed.min.css", "css/bootstrap.min.css", "css/pygment-solarized.css", "css/main.css" %}
@@ -116,11 +116,11 @@ I used the assets plugin from [pelican-plugins](https://github.com/getpelican/pe
 
 ### Configuration
 
-I created an environment variable `PELICAN_SITE_URL` for my virtualenv and on heroku, that way I can set it locally and test with `make regenerate` easily.
+Created an environment variable `PELICAN_SITE_URL` for my virtualenv and on heroku, that way I can set it locally and test with `make regenerate` easily.
 
 ### Adding disqus
 
-I signed up on [disqus](http://disqus.com) and got the embed code, then added the `disqus_identifier`, `disqus_title` and `disqus_url` extra configuration variables.
+Signed up on [disqus](http://disqus.com) and got the embed code, then added the `disqus_identifier`, `disqus_title` and `disqus_url` extra configuration variables.
 
 To the bottom of `article.html` I added:
 
@@ -144,7 +144,7 @@ To the bottom of `article.html` I added:
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     </div>
 
-
+Pretty dissappointed in disqus, can't style it very easily and I feel it clashes with the style of the blog quite a bit.
 
 
 
