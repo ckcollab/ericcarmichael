@@ -48,6 +48,10 @@ I constantly strive to make myself better, I track my strength gains with an app
 
 I make the best of every day by tracking my mood with another personal app I made called Chin Up.
 
+With Chin Up I track some daily metrics (Strength, Flexibility, Relationships) as well as monthly overall metrics (Nature,
+Life goals, etc.). Each metric is rated 1-10 and has an optional notes field. I wanted it to be as simple as possible to
+encourage consistent usage.
+
 
 <div class="text-center" markdown="1">
 ![ScrapBin material exchange](|filename|/images/scrapbin.png)
