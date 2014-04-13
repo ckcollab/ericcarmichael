@@ -43,7 +43,10 @@ or what color is needed!
 I constantly strive to make myself better, I track my strength gains with an app I made called Personal Record.
 
 ![Chin Up mood tracker](|filename|/images/chinup.png)
+
 I make the best of every day by tracking my mood with another personal app I made called Chin Up.
+
+![ScrapBin material exchange](|filename|/images/scrapbin.png)
 
 I worked with a great team on [ScrapBin](http://scrapbin.com), the coolest thing I did there were to convince the team lead
 to switch from Drupal to Django with a quick prototype that had features to search, display results on a map and have

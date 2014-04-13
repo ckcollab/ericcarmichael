@@ -19,8 +19,6 @@ TRANSLATION_FEED_ATOM = None
 
 DEFAULT_PAGINATION = 2
 
-# Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
 
 GITHUB_URL = 'http://github.com/ckcollab/'
 STATIC_PATHS = ['images',]
