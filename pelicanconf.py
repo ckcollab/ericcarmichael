@@ -22,7 +22,7 @@ DEFAULT_PAGINATION = 2
 GITHUB_URL = 'http://github.com/ckcollab/'
 THEME = "themes/mintheme"
 PATH = "content"
-PLUGINS = ["plugins.assets", "plugins.sitemap"]
+PLUGINS = ["plugins.assets", "plugins.sitemap", "plugins.autolinker"]
 MARKUP = (('rst', 'md', 'html'))
 WEBASSETS = True
 
