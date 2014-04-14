@@ -56,13 +56,13 @@ This is what I ended up with for a rough rough draft, from examples in [pelican-
     │   └── css/
     │   └── fonts/
     │   └── images/
-    ├── templates/
-    │   └── includes/
-    │        └── _article.html
-    │   └── article.html
-    │   └── base.html
-    │   └── index.html
-    │   └── page.html
+    └── templates/
+        └── includes/
+        │   └── _article.html
+        └── article.html
+        └── base.html
+        └── index.html
+        └── page.html
 
 ### Adding tags
 
