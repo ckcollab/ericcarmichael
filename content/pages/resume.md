@@ -17,11 +17,11 @@ design to polish features, that way I can worry about making things work and the
 
 # Work
 
-### [PersonalRecord.net](http://personalrecord.net)
+## [PersonalRecord.net](http://personalrecord.net)
 
 I constantly strive to make myself better, I track my strength gains with an app I made called Personal Record.
 
-### [chin-up](https://github.com/ckcollab/chin-up)
+## [chin-up](https://github.com/ckcollab/chin-up)
 
 <a href="https://github.com/ckcollab/chin-up">
 <div class="text-center image-border resume-image" markdown="1">
@@ -37,7 +37,7 @@ Life goals, etc.). Each metric is rated 1-10 and has an optional notes field. I 
 encourage consistent usage.
 
 
-### [ScrapBin](http://scrapbin.com)
+## [ScrapBin](http://scrapbin.com)
 
 <a href="https://scrapbin.com/">
 <div class="text-center image-border resume-image" markdown="1">
