@@ -17,12 +17,12 @@ design to polish features, that way I can worry about making things work and the
 
 # Work
 
-## PersonalRecord.net
+### PersonalRecord.net
 
 I strive to make myself better, I track my strength gains with an app I made called [Personal Record](http://personalrecord.net).
 
 <div style="clear:both;"></div>
-## chin-up
+### chin-up
 
 <a href="https://github.com/ckcollab/chin-up">
 <div class="image-border resume-image" markdown="1">
@@ -38,7 +38,7 @@ Life goals, etc.). Each metric is rated 1-10 and has an optional notes field. I 
 encourage consistent usage.
 
 <div style="clear:both;"></div>
-## ScrapBin
+### ScrapBin
 
 <a href="https://scrapbin.com/">
 <div class="image-border resume-image" markdown="1">

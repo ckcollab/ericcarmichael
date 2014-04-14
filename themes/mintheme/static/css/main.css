@@ -29,7 +29,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 100;
   color: #ababab;
 }
 h1 {
@@ -38,7 +37,7 @@ h1 {
   margin-top: 60px;
 }
 h2 {
-  font-size: 48px;
+  font-size: 36px;
 }
 /*
  * Mobile
@@ -67,7 +66,6 @@ h2 {
  * Base stuff, header/footer
  */
 .header {
-  font-weight: 200 !important;
   margin-bottom: 30px;
 }
 .header .eric {
@@ -76,8 +74,8 @@ h2 {
   margin-right: 35px;
 }
 .header .title {
+  font-weight: 300 !important;
   margin-top: 35px;
-  font-weight: 200 !important;
   border-bottom: 0;
 }
 .header .menu ul {
