@@ -151,12 +151,17 @@ img {
   margin-top: 20px;
   color: #2b2b2b;
 }
-.article .tags {
-  margin-top: 20px;
+.article .article-footer {
   font-size: 13px;
 }
-.article .tags .fa-tags {
+.article .article-footer .fa {
   color: #ce5d12;
+}
+.article .article-footer .fa-folder-o {
+  margin: 0 1px;
+}
+.article .article-footer .tags {
+  margin-top: 20px;
 }
 .article h2 {
   margin-top: 60px;

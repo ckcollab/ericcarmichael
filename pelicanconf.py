@@ -19,10 +19,23 @@ TRANSLATION_FEED_ATOM = None
 
 DEFAULT_PAGINATION = 2
 
-
 GITHUB_URL = 'http://github.com/ckcollab/'
 THEME = "themes/mintheme"
 PATH = "content"
-PLUGINS = ["plugins.assets"]
+PLUGINS = ["plugins.assets", "plugins.sitemap"]
 MARKUP = (('rst', 'md', 'html'))
 WEBASSETS = True
+
+SITEMAP = {
+    "format": "xml",
+    "priorities": {
+        "articles": 1,
+        "pages": 1,
+        "indexes": 0
+    },
+    "changefreqs": {
+        "articles": "weekly",
+        "pages": "monthly",
+        "indexes": "weekly",
+    }
+}
