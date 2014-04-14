@@ -40,4 +40,11 @@ SITEMAP = {
     }
 }
 
-FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
+STATIC_PATHS = [
+    'images',
+    'extra/robots.txt',
+]
+
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+}
