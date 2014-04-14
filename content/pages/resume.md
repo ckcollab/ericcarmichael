@@ -21,13 +21,13 @@ design to polish features, that way I can worry about making things work and the
 
 I constantly strive to make myself better, I track my strength gains with an app I made called Personal Record.
 
+### [chin-up](https://github.com/ckcollab/chin-up)
+
 <a href="https://github.com/ckcollab/chin-up">
-<div class="text-center image-border" markdown="1">
+<div class="text-center image-border resume-image" markdown="1">
 ![Chin Up mood tracker](|filename|/images/chinup.png)
 </div>
 </a>
-
-### [chin-up](https://github.com/ckcollab/chin-up)
 
 I make the best of every day by tracking my mood with a personal app I made called chin up. The name comes from the phrase
 "keep your chin up!"
@@ -37,14 +37,15 @@ Life goals, etc.). Each metric is rated 1-10 and has an optional notes field. I 
 encourage consistent usage.
 
 
+### [ScrapBin](http://scrapbin.com)
+
 <a href="https://scrapbin.com/">
-<div class="text-center image-border" markdown="1">
+<div class="text-center image-border resume-image" markdown="1">
 ![ScrapBin material exchange](|filename|/images/scrapbin.png)
 </div>
 </a>
 
-### [ScrapBin](http://scrapbin.com)
-
 I worked with a great team on ScrapBin for a year. The coolest thing I did there was to convince the team lead
 to switch from Drupal to Django with a quick prototype that had features to search, display results on a map and have
-map markers with extra info. The second coolest thing was to add a super efficient "saved search" via [ElasticSearch](http://www.elasticsearch.org/) percolators.
+map markers with extra info. The second coolest thing was to add a super efficient "saved search" via [ElasticSearch](http://www.elasticsearch.org/)
+percolators that gave real time listing updates.

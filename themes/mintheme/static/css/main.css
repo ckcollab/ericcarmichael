@@ -77,29 +77,6 @@ h2 {
 .header .menu ul li:last-child {
   margin-right: 0;
 }
-.article {
-  padding-bottom: 60px;
-}
-.article .date {
-  margin-top: 20px;
-  color: #2b2b2b;
-}
-.article .tags {
-  margin-left: 20px;
-  font-size: 13px;
-  color: #277a94;
-}
-.article .tags a {
-  color: #277a94;
-}
-.article h2 {
-  margin-top: 60px;
-  color: #9c9c9c;
-}
-.article h3 {
-  margin-top: 25px;
-  color: #4f6275;
-}
 .footer {
   padding-top: 120px;
 }
@@ -123,6 +100,39 @@ h2 {
 }
 .footer .fa-github {
   color: #7a7a7a;
+}
+/*
+ * Articles
+ */
+.article {
+  padding-bottom: 60px;
+}
+.article .date {
+  margin-top: 20px;
+  color: #2b2b2b;
+}
+.article .tags {
+  margin-left: 20px;
+  font-size: 13px;
+  color: #277a94;
+}
+.article .tags a {
+  color: #277a94;
+}
+.article h2 {
+  margin-top: 60px;
+  color: #9c9c9c;
+}
+.article h3 {
+  margin-top: 25px;
+  color: #4f6275;
+}
+/*
+ * Resume page
+ */
+.resume-image {
+  display: inline;
+  float: left;
 }
 /*
  * Disqus styling
