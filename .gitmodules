@@ -1,3 +1,3 @@
 [submodule "plugins/pelican-autolinker"]
 	path = plugins/pelican-autolinker
-	url = git://github.com:ckcollab/pelican-autolinker.git
+	url = git://github.com/ckcollab/pelican-autolinker.git
