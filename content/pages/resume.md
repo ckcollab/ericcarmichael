@@ -21,10 +21,12 @@ design to polish features, that way I can worry about making things work and the
 
 I strive to make myself better, I track my strength gains with an app I made called [Personal Record](http://personalrecord.net).
 
+<div style="clear:both;"></div>
 ## chin-up
 
+<div>
 <a href="https://github.com/ckcollab/chin-up">
-<div class="text-center image-border resume-image" markdown="1">
+<div class="image-border resume-image" markdown="1">
 ![Chin Up mood tracker](|filename|/images/chinup.png)
 </div>
 </a>
@@ -35,12 +37,13 @@ I make the best of every day by tracking my mood with a personal app I made call
 With chin-up I track some daily metrics (Strength, Flexibility, Relationships) as well as monthly overall metrics (Nature,
 Life goals, etc.). Each metric is rated 1-10 and has an optional notes field. I wanted it to be as simple as possible to
 encourage consistent usage.
+</div>
 
-
+<div style="clear:both;"></div>
 ## ScrapBin
 
 <a href="https://scrapbin.com/">
-<div class="text-center image-border resume-image" markdown="1">
+<div class="image-border resume-image" markdown="1">
 ![ScrapBin material exchange](|filename|/images/scrapbin.png)
 </div>
 </a>
