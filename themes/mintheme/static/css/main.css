@@ -1,11 +1,15 @@
+/*
+ * Element styling
+ */
 body {
   background-color: #0a0a0a;
   font-family: 'Merriweather', serif;
-  color: #666666;
+  color: #7a7a7a;
   font-size: 16px;
   padding-bottom: 60px;
 }
 p {
+  text-indent: 15px;
   line-height: 30px;
 }
 pre {
@@ -20,9 +24,14 @@ code {
   border: 1px solid rgba(204, 204, 204, 0.05);
 }
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
+  color: #ababab;
 }
 h1 {
   font-size: 60px;
@@ -32,6 +41,9 @@ h1 {
 h2 {
   font-size: 48px;
 }
+/*
+ * Mobile
+ */
 @media all and (max-width: 995px) {
   h1 {
     font-size: 50px;
@@ -52,6 +64,9 @@ h2 {
     margin-right: 20px !important;
   }
 }
+/*
+ * Base stuff, header/footer
+ */
 .header {
   font-family: 'Raleway', sans-serif;
   font-weight: 200 !important;
@@ -63,7 +78,6 @@ h2 {
 }
 .header .title {
   margin-top: 35px;
-  color: #4d4d4d;
   font-weight: 200 !important;
   border-bottom: 0;
 }
@@ -114,18 +128,15 @@ h2 {
 .article .tags {
   margin-left: 20px;
   font-size: 13px;
-  color: #277a94;
 }
-.article .tags a {
-  color: #277a94;
+.article .tags .fa-tags {
+  color: #ce5d12;
 }
 .article h2 {
   margin-top: 60px;
-  color: #9c9c9c;
 }
 .article h3 {
   margin-top: 25px;
-  color: #4f6275;
 }
 /*
  * Resume page
