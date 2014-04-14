@@ -36,7 +36,6 @@ I make the best of every day by tracking my mood with a personal app I made call
 With chin-up I track some daily metrics (Strength, Flexibility, Relationships) as well as monthly overall metrics (Nature,
 Life goals, etc.). Each metric is rated 1-10 and has an optional notes field. I wanted it to be as simple as possible to
 encourage consistent usage.
-</div>
 
 <div style="clear:both;"></div>
 ## ScrapBin
