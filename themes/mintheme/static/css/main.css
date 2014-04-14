@@ -9,6 +9,7 @@ body {
   padding-bottom: 60px;
 }
 p {
+  word-wrap: break-word;
   line-height: 30px;
 }
 pre {
@@ -135,7 +136,7 @@ h2 {
   margin-top: 60px;
 }
 .article h3 {
-  margin-top: 25px;
+  margin-top: 35px;
 }
 /*
  * Resume page

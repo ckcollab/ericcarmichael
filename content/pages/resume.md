@@ -17,11 +17,11 @@ design to polish features, that way I can worry about making things work and the
 
 # Work
 
-## [PersonalRecord.net](http://personalrecord.net)
+## PersonalRecord.net
 
-I constantly strive to make myself better, I track my strength gains with an app I made called Personal Record.
+I strive to make myself better, I track my strength gains with an app I made called [Personal Record](http://personalrecord.net).
 
-## [chin-up](https://github.com/ckcollab/chin-up)
+## chin-up
 
 <a href="https://github.com/ckcollab/chin-up">
 <div class="text-center image-border resume-image" markdown="1">
@@ -29,7 +29,7 @@ I constantly strive to make myself better, I track my strength gains with an app
 </div>
 </a>
 
-I make the best of every day by tracking my mood with a personal app I made called chin up. The name comes from the phrase
+I make the best of every day by tracking my mood with a personal app I made called [chin up](https://github.com/ckcollab/chin-up). The name comes from the phrase
 "keep your chin up!"
 
 With chin-up I track some daily metrics (Strength, Flexibility, Relationships) as well as monthly overall metrics (Nature,
@@ -37,7 +37,7 @@ Life goals, etc.). Each metric is rated 1-10 and has an optional notes field. I 
 encourage consistent usage.
 
 
-## [ScrapBin](http://scrapbin.com)
+## ScrapBin
 
 <a href="https://scrapbin.com/">
 <div class="text-center image-border resume-image" markdown="1">
@@ -45,7 +45,7 @@ encourage consistent usage.
 </div>
 </a>
 
-I worked with a great team on ScrapBin for a year. The coolest thing I did there was to convince the team lead
+I worked with a great team on [ScrapBin](http://scrapbin.com) for a year. The coolest thing I did there was to convince the team lead
 to switch from Drupal to Django with a quick prototype that had features to search, display results on a map and have
 map markers with extra info. The second coolest thing was to add a super efficient "saved search" via [ElasticSearch](http://www.elasticsearch.org/)
 percolators that gave real time listing updates.
