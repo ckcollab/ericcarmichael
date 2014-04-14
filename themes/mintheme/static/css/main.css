@@ -39,6 +39,10 @@ h1 {
 h2 {
   font-size: 36px;
 }
+img {
+  padding: 10px;
+  border: 1px solid #292929;
+}
 /*
  * Mobile
  */
@@ -72,6 +76,8 @@ h2 {
   float: left;
   margin: 15px;
   margin-right: 35px;
+  border: 0;
+  padding: 0;
 }
 .header .title {
   font-weight: 300 !important;
