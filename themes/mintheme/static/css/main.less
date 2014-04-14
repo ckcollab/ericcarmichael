@@ -39,10 +39,22 @@ img {
 }
 
 /*
- * Mobile
+ * Responsive jazz
  */
+@media all and (max-width: 1200px) {
+    .header {
+        .eric {
+            margin-top: -15px !important;
+        }
+    }
+}
+
 @media all and (max-width: 995px) {
-    h1 { font-size: 50px; }
+    .header {
+        .title {
+            font-size: 40px;
+        }
+    }
     //body { font-size: 18px; }
 }
 
@@ -52,13 +64,26 @@ img {
 
         .eric {
             float: none !important;
+            margin-top: 30px !important;
+            margin-right: 0 !important;
+        }
+        .title {
+            display: none;
         }
         .menu {
+            margin-left: 0 !important;
+            
             ul {
                 padding: 0;
                 font-size: 24px;
                 li {
-                    margin-right: 20px !important;
+                    display: block !important;
+                    margin: 10px 0 !important;
+                }
+                a {
+                    display: block;
+                    font-size: 32px;
+                    background-color: #0E0E0E;
                 }
             }
         }
