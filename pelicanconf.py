@@ -24,4 +24,5 @@ GITHUB_URL = 'http://github.com/ckcollab/'
 THEME = "themes/mintheme"
 PATH = "content"
 PLUGINS = ["plugins.assets"]
+MARKUP = (('rst', 'md', 'html'))
 WEBASSETS = True
