@@ -17,3 +17,7 @@ Title: About
 ![Powerlifting](|filename|/images/powerlifting.jpg)
 
 &mdash; Powerlifting
+
+![My family](|filename|/images/family.jpg)
+
+&mdash; My family (I'm the bumblee bee)
