@@ -39,3 +39,5 @@ SITEMAP = {
         "indexes": "weekly",
     }
 }
+
+FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
