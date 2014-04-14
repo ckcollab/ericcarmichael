@@ -21,14 +21,13 @@
             <div class="col-lg-12">
                 <a href="{{ SITEURL }}/index.html"><img src="{{ SITEURL }}/theme/images/eric2.png" class="eric"></a>
 
-                <h1 class="title hidden-xs">{{ SITENAME|lower }}</h1>
+                <h1 class="title hidden-xs">{{ SITENAME }}</h1>
 
                 <div class="menu">
                     <ul>
-                        <li><a href="{{ SITEURL }}/index.html">blog</a></li>
-                        {% for page in pages %}
-                            <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title|lower }}</a></li>
-                        {% endfor %}
+                        <li><a href="{{ SITEURL }}/index.html">Blog</a></li>
+                        <li><a href="{{ SITEURL }}/pages/about.html">About</a></li>
+                        <li><a href="{{ SITEURL }}/pages/resume.html">Résumé</a></li>
                     </ul>
                 </div>
             </div>
