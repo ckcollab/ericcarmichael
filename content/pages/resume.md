@@ -27,6 +27,7 @@ I strive to make myself better, I track my strength gains with an app I made cal
 <a href="https://github.com/ckcollab/chin-up">
 <div class="image-border resume-image" markdown="1">
 ![Chin Up mood tracker](|filename|/images/chinup.png)
+</div>
 </a>
 
 I make the best of every day by tracking my mood with a personal app I made called [chin up](https://github.com/ckcollab/chin-up). The name comes from the phrase
