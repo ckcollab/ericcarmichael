@@ -29,7 +29,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway', sans-serif;
   font-weight: 100;
   color: #ababab;
 }
@@ -68,7 +67,6 @@ h2 {
  * Base stuff, header/footer
  */
 .header {
-  font-family: 'Raleway', sans-serif;
   font-weight: 200 !important;
   margin-bottom: 30px;
 }
