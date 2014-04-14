@@ -12,6 +12,6 @@ Seeing a feature come to fruition gives me a huge sense of satisfaction.
 
 ### What am I about?
 
-kayak picture
+![Kayaking in Coeur d'Alene](|filename|/images/kayak.jpg)
 
-powerlifting picture
+![Powerlifting](|filename|/images/powerlifting.jpg)
