@@ -21,7 +21,6 @@ DEFAULT_PAGINATION = 2
 
 
 GITHUB_URL = 'http://github.com/ckcollab/'
-STATIC_PATHS = ['images',]
 THEME = "themes/mintheme"
 PATH = "content"
 PLUGINS = ["plugins.assets"]
