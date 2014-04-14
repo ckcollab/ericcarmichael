@@ -145,9 +145,12 @@ h2 {
 .resume_page ul {
   list-style-type: none;
 }
-.resume-image {
+.resume_page img {
   display: inline;
   float: left;
+  padding: 10px;
+  margin-right: 20px;
+  border: 1px solid #303335;
 }
 /*
  * Disqus styling
@@ -155,9 +158,3 @@ h2 {
 /*
  * Useful styles
  */
-.image-border img {
-  padding: 10px;
-  margin-right: 20px;
-  margin-bottom: 30px;
-  border: 1px solid #303335;
-}
