@@ -37,7 +37,7 @@ That idea sucks for so many reasons:
 * Did I fix that link?
 
 
-## The real solution
+## The real solution: [Existence](https://github.com/ckcollab/existence)
 
 After playing around with a few different ideas I finally thought: screw this. I was thinking too hard, all of the
 solutions were too convoluted. When I stepped away from the computer and thought for a while I realized
