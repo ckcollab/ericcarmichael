@@ -6,7 +6,7 @@ body {
   font-family: 'Merriweather', serif;
   color: #7a7a7a;
   font-size: 18px;
-  padding-bottom: 60px;
+  padding: 60px 0;
 }
 p {
   word-wrap: break-word;
