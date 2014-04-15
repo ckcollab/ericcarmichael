@@ -5,8 +5,8 @@ Category: python
 
 
 I've been looking make a little python package to launch on [pypi](https://pypi.python.org/) for quite some time. With
-all of my recent [Pelican](http://getpelican.com) blog tweaking, I am having about 50 urges per second to tweak the
-experience a little bit. 
+all of my recent [Pelican](http://getpelican.com) blog tweaking, I am having about 50 urges per second to improve the
+development a little bit.
 
 
 ## The problem
