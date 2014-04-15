@@ -16,16 +16,11 @@ def clean():
 
 
 def check_urls():
-    print "Checking URLs"
-    bad_urls = scan_directory_for_bad_urls(DEPLOY_PATH)
+    with hide('warnings'):
+        with settings(warn_only=True):
+            result = local("existence {deploy_path}".format(**env))
 
-    if not bad_urls:
-        print "URL's are looking good"
-    else:
-        for url in bad_urls:
-            print "Broken link found in file %s on line %s linking to %s" % (url[1], url[2], url[0])
-
-    return bad_urls
+            return result.return_code != 0
 
 
 def deploy():

@@ -6,7 +6,13 @@ Recently I got to finish up a great year working for a local client doing [Pytho
 remember to add Tags: web development, mobile development
 and Category: development
 
+
+
+Category: web development
+Status: draft
+
+
+
 Title: Web Developer vs Mobile App Developer
 Date: 2014-4-14 11:15
-Category: web development
 Status: draft
