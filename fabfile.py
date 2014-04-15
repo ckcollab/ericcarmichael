@@ -15,17 +15,25 @@ def clean():
         local('mkdir {deploy_path}'.format(**env))
 
 
-def deploy():
-    clean()
-    local("make html")
-
+def check_urls():
     print "Checking URLs"
     bad_urls = get_bad_urls(DEPLOY_PATH)
 
     if not bad_urls:
         print "URL's are looking good"
-        local("git push")
-        local("git push heroku master")
     else:
         for url in bad_urls:
             print "Broken link found in file %s on line %s linking to %s" % (url[1], url[2], url[0])
+
+    return bad_urls
+
+
+def deploy():
+    clean()
+    local("make html")
+
+    bad_urls = check_urls()
+
+    if not bad_urls:
+        local("git push")
+        local("git push heroku master")
