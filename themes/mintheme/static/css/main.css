@@ -182,14 +182,6 @@ img {
 .resume_page ul {
   list-style-type: none;
 }
-.resume_page img {
-  display: inline;
-  float: left;
-  padding: 10px;
-  margin-right: 20px;
-  margin-bottom: 30px;
-  border: 1px solid #303335;
-}
 .resume_page .fun_title {
   margin-top: 80px;
 }
