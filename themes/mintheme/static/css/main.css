@@ -51,6 +51,9 @@ img {
   .header .eric {
     margin-top: -15px !important;
   }
+  .resume_page .fun_title {
+    margin-top: 60px !important;
+  }
 }
 @media all and (max-width: 995px) {
   .header .title {
@@ -58,6 +61,14 @@ img {
   }
   pre {
     font-size: 13px !important;
+  }
+}
+@media all and (max-width: 765px) {
+  .resume_page ul {
+    padding-left: 0 !important;
+  }
+  .resume_page .skills-and-fun {
+    text-align: center;
   }
 }
 @media all and (max-width: 660px) {
