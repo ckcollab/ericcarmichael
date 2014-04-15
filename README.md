@@ -1,12 +1,16 @@
 Eric Carmichael's blog
 ======================
 
+![Picture of Eric Carmichael](content/images/kayak.jpg)
+
+&mdash; Fernan Lake, Idaho
+
 Environment variables
+=====================
+
 ```
 export PELICAN_SITE_URL="http://ericcarmichael.com"
 ```
-
-![Picture of Eric Carmichael](content/images/kayak.jpg)
 
 Fab commands
 ============
