@@ -199,3 +199,6 @@ img {
 /*
  * Useful styles
  */
+.image-full-width {
+  width: 100%;
+}
