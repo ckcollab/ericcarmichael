@@ -57,11 +57,10 @@ Then I saw [this](http://stackoverflow.com/a/14369828/2197389) nice little examp
 
     :::python
     def async_check_url(url, file_name, line_number):
-        print "Checking: %s" % url
-        response = urllib2.urlopen(url)
-
-        if response.code != 200:
-            broken_link_exception(url, file_name, line_number)
+        try:
+            urllib2.urlopen(url)
+        except urllib2.URLError:
+            BROKEN_URLS.append((url, file_name, line_number))
 
 
     def check_urls(urls):
@@ -103,16 +102,25 @@ Then I saw [this](http://stackoverflow.com/a/14369828/2197389) nice little examp
     import os
     from setuptools import setup
 
-    readme = open(os.path.join(os.path.dirname(__file__), "README.md")).read()
+
+    try:
+        with open('README.md') as readme:
+            long_description = readme.read()
+    except IOError, ImportError:
+        long_description = ''
 
     setup(
+        install_requires = [
+            "lxml>=3.3.4",
+            "cssselect>=0.9.1"
+        ],
         name="existence",
         py_modules=["existence"],
-        version="0.0.1",
+        version="0.0.8",
         author="Eric Carmichael",
         author_email="eric@ckcollab.com",
         description="Checks static .html files for bad links",
-        long_description=readme,
+        long_description=long_description,
         license="MIT",
         keywords="link checker",
         url="https://github.com/ckcollab/existence",
@@ -130,6 +138,7 @@ Then I saw [this](http://stackoverflow.com/a/14369828/2197389) nice little examp
     )
 
 
+
 ### 4. submit
 
     :::text
@@ -141,14 +150,37 @@ Then I saw [this](http://stackoverflow.com/a/14369828/2197389) nice little examp
 ## Plugging it into [fabric](http://www.fabfile.org/)
 
     :::python
-    from fabric.api import local, run
+    import os
+    from existence import get_bad_urls
+    from fabric.api import *
+
+
+    # Local path configuration (can be absolute or relative to fabfile)
+    env.deploy_path = 'output'
+    DEPLOY_PATH = env.deploy_path
+
+
+    def clean():
+        if os.path.isdir(DEPLOY_PATH):
+            local('rm -rf {deploy_path}'.format(**env))
+            local('mkdir {deploy_path}'.format(**env))
+
 
     def deploy():
-        # run make html
-        # run existence
-        # if existence has failures stop
-        # git push heroku master
-        pass
+        clean()
+        local("make html")
+
+        print "Checking URLs"
+        bad_urls = get_bad_urls(DEPLOY_PATH)
+
+        if not bad_urls:
+            print "URL's are looking good"
+            local("git push")
+            local("git push heroku master")
+        else:
+            for url in bad_urls:
+                print "Broken link found in file %s on line %s linking to %s" % (url[1], url[2], url[0])
+
 
 
 
