@@ -4,7 +4,7 @@ Title: About
 
 ### Who am I?
 
-<img class="image-full-width" alt="Me, my girlfriend's child Austen and my girlfriend Kat" src="/images/eric_and_kat.jpg">
+<img class="image-full-width" alt="Me, my girlfriend's naked child Austen and my girlfriend Kat" src="/images/eric_and_kat.jpg">
 
 &mdash; Me, my girlfriend's child Austen and my girlfriend Kat
 
