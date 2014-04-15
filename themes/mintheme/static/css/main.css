@@ -190,6 +190,9 @@ img {
   margin-bottom: 30px;
   border: 1px solid #303335;
 }
+.resume_page .fun_title {
+  margin-top: 80px;
+}
 /*
  * Disqus styling
  */
