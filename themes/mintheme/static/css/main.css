@@ -67,7 +67,11 @@ img {
   .header .eric {
     float: none !important;
     margin-top: 30px !important;
+    margin-bottom: 70px !important;
     margin-right: 0 !important;
+    background-image: url('../images/eric3_large.png') !important;
+    width: 275px !important;
+    height: 275px !important;
   }
   .header .title {
     display: none;
@@ -88,6 +92,9 @@ img {
     font-size: 32px;
     background-color: #0E0E0E;
   }
+  .footer .social-icons {
+    margin-top: 25px;
+  }
 }
 /*
  * Base stuff, header/footer
@@ -101,6 +108,9 @@ img {
   margin-right: 35px;
   border: 0;
   padding: 0;
+  background-image: url('../images/eric3.png');
+  width: 138px;
+  height: 138px;
 }
 .header .title {
   font-weight: 300 !important;
@@ -127,25 +137,25 @@ img {
 .footer .credit {
   font-size: 12px;
 }
-.footer .fa {
+.footer .social-icons .fa {
   margin-left: 5px;
 }
-.footer .fa:hover {
+.footer .social-icons .fa:hover {
   color: #63bdff;
 }
-.footer .fa-rss {
+.footer .social-icons .fa-rss {
   color: #FF6600;
 }
-.footer .fa-twitter {
+.footer .social-icons .fa-twitter {
   color: #4099ff;
 }
-.footer .fa-facebook {
+.footer .social-icons .fa-facebook {
   color: #3B5998;
 }
-.footer .fa-linkedin {
+.footer .social-icons .fa-linkedin {
   color: #0e76a8;
 }
-.footer .fa-github {
+.footer .social-icons .fa-github {
   color: #7a7a7a;
 }
 /*
