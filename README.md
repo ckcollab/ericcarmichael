@@ -1,4 +1,4 @@
-eric carmichael's blog
+Eric Carmichael's blog
 ======================
 
 Environment variables
@@ -6,6 +6,7 @@ Environment variables
 export PELICAN_SITE_URL="http://ericcarmichael.com"
 ```
 
+![Picture of Eric Carmichael](content/images/kayak.jpg)
 
 Fab commands
 ============
