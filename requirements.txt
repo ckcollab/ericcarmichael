@@ -13,4 +13,4 @@ psycopg2==2.5.1
 pytz==2014.2
 six==1.6.1
 webassets==0.9
-existence>=0.0.7
+existence==0.0.9

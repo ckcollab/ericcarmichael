@@ -1,6 +1,6 @@
 import os
 
-from existence import get_bad_urls
+from existence import scan_directory_for_bad_urls
 from fabric.api import *
 
 
@@ -17,7 +17,7 @@ def clean():
 
 def check_urls():
     print "Checking URLs"
-    bad_urls = get_bad_urls(DEPLOY_PATH)
+    bad_urls = scan_directory_for_bad_urls(DEPLOY_PATH)
 
     if not bad_urls:
         print "URL's are looking good"
