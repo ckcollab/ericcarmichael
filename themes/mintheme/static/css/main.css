@@ -124,9 +124,13 @@ img {
   height: 138px;
 }
 .header .title {
+  font-size: 50px;
   font-weight: 300 !important;
   margin-top: 35px;
   border-bottom: 0;
+  color: #ababab;
+  line-height: 1.1;
+  margin-bottom: 10px;
 }
 .header .menu ul {
   list-style-type: none;
