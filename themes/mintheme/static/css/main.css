@@ -207,6 +207,33 @@ img {
 .resume_page ul {
   list-style-type: none;
 }
+.resume_page .skills-and-fun .skills ul {
+  padding: 0;
+}
+.resume_page .skills-and-fun .skills .python {
+  border-left: 30px solid #007539;
+  padding-left: 10px;
+}
+.resume_page .skills-and-fun .skills .django-rest-framework {
+  border-left: 20px solid #007539;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.resume_page .skills-and-fun .skills .celery {
+  border-left: 10px solid #007539;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+.resume_page .skills-and-fun .skills .angular {
+  border-left: 20px solid #007539;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.resume_page .skills-and-fun .skills .knockout {
+  border-left: 10px solid #007539;
+  padding-left: 10px;
+  margin-left: 20px;
+}
 .resume_page .fun_title {
   margin-top: 80px;
 }
