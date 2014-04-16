@@ -80,7 +80,7 @@ img {
     display: block;
     margin: 0 auto !important;
     margin-bottom: 60px !important;
-    background-image: url('../images/eric3_large.png') !important;
+    background-image: url('../images/eric4_large.png') !important;
     width: 275px !important;
     height: 275px !important;
   }
@@ -119,7 +119,7 @@ img {
   margin-right: 35px;
   border: 0;
   padding: 0;
-  background-image: url('../images/eric3.png');
+  background-image: url('../images/eric4.png');
   width: 138px;
   height: 138px;
 }
