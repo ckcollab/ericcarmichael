@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
     font-size: 50px;
-    border-bottom: 1px solid rgb(27, 27, 27);
+    border-bottom: 1px solid hsl(197, 7%, 16%);
     margin-top: 60px;
 }
 h2 { font-size: 36px; }
@@ -91,7 +91,7 @@ img {
             margin: 0 auto !important;
             margin-bottom: 60px !important;
 
-            background-image: url('../images/eric3_large.png') !important;
+            background-image: url('../images/eric4_large.png') !important;
             width: 275px !important;
             height: 275px !important;
         }
@@ -117,6 +117,24 @@ img {
         }
     }
 
+    .resume_page {
+        .skills-and-fun {
+            ul {
+                margin: 25px 0 !important;;
+            }
+            li {
+                display: inline;
+
+                a {
+                    background-color: rgba(43, 101, 151, 0.1);
+                    padding: 10px;
+                    margin: 10px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
     .footer {
         .social-icons {
             margin-top: 25px;
@@ -137,14 +155,18 @@ img {
         border: 0;
         padding: 0;
 
-        background-image: url('../images/eric3.png');
+        background-image: url('../images/eric4.png');
         width: 138px;
         height: 138px;
     }
     .title {
+        font-size: 50px;
         font-weight: 300 !important;
         margin-top: 35px;
         border-bottom: 0;
+        color: @white;
+        line-height: 1.1;
+        margin-bottom: 10px;
     }
 
     .menu {
@@ -229,6 +251,38 @@ img {
  */
 .resume_page {
     ul { list-style-type: none; }
+
+    .skills-and-fun {
+        .skills {
+            /*
+            ul { padding: 0; }
+
+            .python {
+                border-left: 30px solid hsl(149, 100%, 23%);
+                padding-left: 10px;
+            }
+            .django-rest-framework {
+                border-left: 20px solid hsl(149, 100%, 23%);
+                padding-left: 10px;
+                margin-left: 10px;
+            }
+            .celery {
+                border-left: 10px solid hsl(149, 100%, 23%);
+                padding-left: 10px;
+                margin-left: 20px;
+            }
+            .angular {
+                border-left: 20px solid hsl(149, 100%, 23%);
+                padding-left: 10px;
+                margin-left: 10px;
+            }
+            .knockout {
+                border-left: 10px solid hsl(149, 100%, 23%);
+                padding-left: 10px;
+                margin-left: 20px;
+            }*/
+        }
+    }
 
     .fun_title {
         margin-top: 80px;
