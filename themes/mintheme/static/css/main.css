@@ -115,6 +115,12 @@ img {
     margin: 10px;
     border-radius: 5px;
   }
+  .resume_page .skills-and-fun .fa-star {
+    float: left;
+    margin-top: 5px;
+    margin-left: -22px;
+    color: #ce5d12;
+  }
   .footer .social-icons {
     margin-top: 25px;
   }
@@ -247,6 +253,7 @@ img {
                 padding-left: 10px;
                 margin-left: 20px;
             }*/
+
 }
 .resume_page .fun_title {
   margin-top: 80px;

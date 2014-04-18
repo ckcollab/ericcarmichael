@@ -1,6 +1,5 @@
 import os
 
-from existence import scan_directory_for_bad_urls
 from fabric.api import *
 
 
