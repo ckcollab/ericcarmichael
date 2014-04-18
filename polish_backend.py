@@ -1,5 +1,5 @@
 from polished.backends import PelicanBackend
 
 
-#class EricPelicanBackend(PelicanBackend):
-
+class EricPelicanBackend(PelicanBackend):
+    pass
