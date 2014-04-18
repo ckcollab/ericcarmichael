@@ -1,5 +1,5 @@
-from local_polished.backends import PelicanBackend
+from polished.backends import PelicanBackend
 
 
-class EricPelicanBackend(PelicanBackend):
+#class EricPelicanBackend(PelicanBackend):
 
