@@ -70,6 +70,9 @@ img {
   .resume_page .skills-and-fun {
     text-align: center;
   }
+  .youtube {
+    width: 100%;
+  }
 }
 @media all and (max-width: 660px) {
   .header {
