@@ -9,7 +9,9 @@ from polished.decorators import polish
 class EricPelicanBackend(PelicanBackend):
 
     @polish(urls=["output/pages/about.html"], commit_indexes=[112, 135])
-    def test_func(self):
+    def fix_image_links_on_about_me_page(self):
+        print '%%%%%%%%%%%%%%%%%%%%%%%%%%% DOIN IT!'
+
         wait = WebDriverWait(self.DRIVER, 10)
         element = wait.until(EC.visibility_of_element_located((By.TAG_NAME, 'img')))
 
