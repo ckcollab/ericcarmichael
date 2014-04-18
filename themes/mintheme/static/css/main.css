@@ -251,7 +251,7 @@ img {
 }
 .resume_page .skills-and-fun .fa-star {
   float: left;
-  margin-top: 5px;
+  margin-top: 4px;
   margin-left: -22px;
   color: #ce5d12;
 }
@@ -266,4 +266,8 @@ img {
  */
 .image-full-width {
   width: 100%;
+}
+.youtube {
+  display: block;
+  margin: 0 auto;
 }
