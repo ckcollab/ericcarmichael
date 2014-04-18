@@ -24,6 +24,10 @@
   .resume_page .skills-and-fun {
     text-align: center;
   }
+  .resume_page .skills-and-fun .fa-star {
+    float: none;
+    margin-left: 0;
+  }
   .youtube {
     width: 100%;
   }
@@ -72,10 +76,6 @@
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
-  }
-  .resume_page .skills-and-fun .fa-star {
-    float: none;
-    margin-left: 0;
   }
   .footer .social-icons {
     margin-top: 25px;
