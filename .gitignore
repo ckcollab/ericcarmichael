@@ -2,5 +2,6 @@
 venv/*
 *.pyc
 output/
-polished/
-local_polished/
+
+polished
+polished_output/*
