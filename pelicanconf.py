@@ -34,9 +34,9 @@ SITEMAP = {
         "indexes": 0
     },
     "changefreqs": {
-        "articles": "weekly",
-        "pages": "monthly",
-        "indexes": "weekly",
+        "articles": "daily",
+        "pages": "daily",
+        "indexes": "daily",
     }
 }
 

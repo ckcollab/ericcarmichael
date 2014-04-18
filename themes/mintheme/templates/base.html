@@ -5,19 +5,23 @@
 
     <meta charset='utf-8'>
     <meta http-equiv="Content-Language" content="en">
-    <meta name="description" content="Eric Carmichael's personal blog and resume.">
+    <meta name="description" content="Eric Carmichael's personal resume and blog about Python and development in general.">
     <meta name="keywords" content="python, web development, mobile app, spokane, coeur d'alene, post falls">
     <meta name="author" content="Eric Carmichael">
 
-    <meta name="msvalidate.01" content="A1FE311F600CE96CD093FD3AF6E454C2"/>
+    <meta property="og:title" content="Eric Carmichael's Nerdery"/>
+    <meta property="og:image" content="http://www.ericcarmichael.com/theme/images/eric4.png"/>
+    <meta property="og:description" content="Sean Connery found fame and fortune as the suave, sophisticated British agent, James Bond."/>
 
-    <title>Eric Carmichael's Nerdery</title>
+    <meta name="news_keywords" content="python, django, development, web development, mobile app">
+
+    <meta name="msvalidate.01" content="A1FE311F600CE96CD093FD3AF6E454C2"/>
 
     <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico" type="image/x-icon">
 
     <link href='http://fonts.googleapis.com/css?family=Merriweather:300,400' rel='stylesheet' type='text/css'>
 
-    {% assets filters="cssmin", output="css/packed.min.css", "css/bootstrap.min.css", "css/font-awesome.min.css", "css/pygment-solarized-dark.css", "css/main.css" %}
+    {% assets filters="cssmin", output="css/packed.min.css", "css/bootstrap.min.css", "css/font-awesome.min.css", "css/pygment-solarized-dark.css", "css/main.css", "css/main-responsive.css" %}
         <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
     {% endassets %}
 </head>
