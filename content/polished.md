@@ -21,17 +21,17 @@ Once you've installed polished, it works like this:
 
 ## Examples
 
+<iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/J4sBUXP7zoo?rel=0" frameborder="0" allowfullscreen></iframe>
+<p align="center">
+Resume page video without polishing
+</p>
+
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/Yi5fHkGqe38?rel=0" frameborder="0" allowfullscreen></iframe>
 <p align="center">
-Resume page
+Polished resume page video
 </p>
 
-<iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/dGM8ha9kHdg?rel=0" frameborder="0" allowfullscreen></iframe>
-<p align="center">
-About page
-</p>
-
-And I had to "polish" these videos to get them just right, fix links for some commits:
+And I had to "polish" these videos to get them just right, fix bad links for some commits:
 
     :::python
     from selenium.webdriver.common.by import By
