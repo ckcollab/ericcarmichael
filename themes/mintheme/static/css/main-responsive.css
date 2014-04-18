@@ -1,0 +1,83 @@
+/*
+ * Responsive jazz
+ */
+@media all and (max-width: 1200px) {
+  .header .eric {
+    margin-top: -15px;
+  }
+  .resume_page .fun_title {
+    margin-top: 60px;
+  }
+}
+@media all and (max-width: 995px) {
+  .header .title {
+    font-size: 40px;
+  }
+  pre {
+    font-size: 13px;
+  }
+}
+@media all and (max-width: 765px) {
+  .resume_page ul {
+    padding-left: 0;
+  }
+  .resume_page .skills-and-fun {
+    text-align: center;
+  }
+  .youtube {
+    width: 100%;
+  }
+}
+@media all and (max-width: 660px) {
+  .header {
+    text-align: center;
+  }
+  .header .eric {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    background-image: url('../images/eric4_large.png');
+    width: 275px;
+    height: 275px;
+  }
+  .header .title {
+    display: none;
+  }
+  .header .menu {
+    margin-left: 0;
+  }
+  .header .menu ul {
+    padding: 0;
+    font-size: 24px;
+  }
+  .header .menu ul li {
+    display: block;
+    margin: 10px 0;
+  }
+  .header .menu ul a {
+    display: block;
+    font-size: 32px;
+    background-color: #0E0E0E;
+  }
+  .resume_page .skills-and-fun ul {
+    margin: 25px 0;
+  }
+  .resume_page .skills-and-fun li {
+    display: inline;
+  }
+  .resume_page .skills-and-fun li a {
+    display: inline-block;
+    background-color: rgba(43, 101, 151, 0.1);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  .resume_page .skills-and-fun .fa-star {
+    float: none;
+    margin-left: 0;
+  }
+  .footer .social-icons {
+    margin-top: 25px;
+  }
+}
