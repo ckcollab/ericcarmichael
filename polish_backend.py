@@ -8,7 +8,7 @@ from polished.decorators import polish
 
 class EricPelicanBackend(PelicanBackend):
 
-    @polish(urls=["output/pages/about.html"], commit_indexes=[112, 135])
+    @polish(urls=["output/pages/about.html"], commit_indexes=range(112, 135))
     def fix_image_links_on_about_me_page(self):
         print '%%%%%%%%%%%%%%%%%%%%%%%%%%% DOIN IT!'
 
