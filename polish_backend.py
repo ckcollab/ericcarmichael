@@ -1,3 +1,5 @@
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from polished.backends import PelicanBackend
@@ -6,14 +8,11 @@ from polished.decorators import polish
 
 class EricPelicanBackend(PelicanBackend):
 
-
-
-
-
-    # you can call execute javascript to reset A tag urls and shit!!! so smart
-
-    @polish(urls=["tree trunk.html"])
+    @polish(urls=["tree trunk.html"], commit_indexes=[112, 135])
     def test_func(self):
+        wait = WebDriverWait(self.DRIVER, 10)
+        element = wait.until(EC.visibility_of_element_located((By.TAG_NAME, 'img')))
+
         self.DRIVER.execute_script("""
             var img_array = document.getElementsByTagName('img');
 
