@@ -8,7 +8,7 @@ from polished.decorators import polish
 
 class EricPelicanBackend(PelicanBackend):
 
-    @polish(urls=["tree trunk.html"], commit_indexes=[112, 135])
+    @polish(urls=["output/pages/about.html"], commit_indexes=[112, 135])
     def test_func(self):
         wait = WebDriverWait(self.DRIVER, 10)
         element = wait.until(EC.visibility_of_element_located((By.TAG_NAME, 'img')))
