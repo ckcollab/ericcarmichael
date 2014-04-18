@@ -35,19 +35,28 @@ Requires:
 * [NodeJS](http://nodejs.org/)
 * [PhantomJS](http://phantomjs.org/)
 
+Then the usual
 
-    pip install polished
+
+    :::bash
+    > pip install polished
 
 
 For more detailed instructions please check out the [repo readme](https://github.com/ckcollab/polished).
 
 ## Usage
 
-`polished` The default behavior is to capture `"index.html"` each commit
+    > polished
 
-`polished output/index.html` Local file
+The default behavior is to capture `"index.html"` each commit
 
-`polished http://localhost:8000/` Local server
+    > polished output/index.html
+
+Local file
+
+    > polished http://localhost:8000/
+
+Local server
 
 
-**By default the files are saved to `polished/<commit count>.<sha>.polished.png`**
+By default the files are saved to `polished_output/<commit count>.<sha>.polished.png` and `polished_output/output.mp4`
