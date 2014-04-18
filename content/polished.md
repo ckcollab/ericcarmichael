@@ -21,14 +21,14 @@ Once you've installed polished, it works like this:
 
 ## Examples
 
-<iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/J4sBUXP7zoo?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/Yi5fHkGqe38?rel=0" frameborder="0" allowfullscreen></iframe>
 <p align="center">
-Resume
+Resume page
 </p>
 
-<iframe width="640" height="360" class="youtube" src="//www.youtube-nocookie.com/embed/aVm0rIgwluw?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/dGM8ha9kHdg?rel=0" frameborder="0" allowfullscreen></iframe>
 <p align="center">
-Blog index
+About page
 </p>
 
 ## Installation
