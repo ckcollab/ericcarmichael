@@ -17,7 +17,7 @@ FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
-DEFAULT_PAGINATION = 2
+DEFAULT_PAGINATION = 5
 
 GITHUB_URL = 'http://github.com/ckcollab/'
 THEME = "themes/mintheme"

@@ -2,6 +2,7 @@ Title: Polished
 Date: 2014-4-18 15:10
 Category: python
 Tags: python, polished, web development, development
+Summary: The goal of [polished](http://github.com/ckcollab/polished) is to show all of the meticulous tweaks that go into a website. My resume is a good example, dozens of hours of work and tweaking to come up with this pretty basic final product. Showing that blood, sweat and hilarious tears in between should be pretty entertaining. Watch pages undulate, stretch, break, grow, and shrink into place.
 
 The goal of [polished](http://github.com/ckcollab/polished) is to show all of the meticulous tweaks that go into a website. My resume
 is a good example, dozens of hours of work and tweaking to come up with this pretty basic final product. Showing that

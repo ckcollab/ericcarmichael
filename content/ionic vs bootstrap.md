@@ -2,14 +2,16 @@ Title: Ionic vs Bootstrap
 Date: 2014-4-22 15:10
 Category: web development
 Tags: ionic, javascript, css, web development, development
+Summary: I come from the before times. The times where PHP was it, many were switching from *tables* to *css*, Al Gore had his presidency stolen and you got help from some weird phpBB forum post where the signatures took up half the screen&mdash;and you LIKED IT!
+
 
 
 I come from the before times. The times where PHP was it, many were switching from *tables* to *css*, Al Gore had his
-presidency stolen and you got help from some weird phpBB forum post where the signatures took up half the screen--and
+presidency stolen and you got help from some weird phpBB forum post where the signatures took up half the screen&mdash;and
 you LIKED IT!
 
 <p align="center" style="margin: 50px;">
-    <img src="images/ionic/land_before_time.jpg" alt="Land Before Time"><br>
+    <img src="images/ionic_vs_bootstrap/land_before_time.jpg" alt="Land Before Time"><br>
     <i><small>I need a more ominous before picture...</small></i>
 </p>
 
@@ -29,6 +31,11 @@ things that definitely bug me and I'd love to learn about some alternatives.
 
 
 
+
+
+<p align="center" style="margin: 50px;">
+    <img src="images/ionic_vs_bootstrap/bootstrap.png" alt="Bootstrap"><br>
+</p>
 
 
 
@@ -58,7 +65,7 @@ that has a version of Bootstrap without the jQuery requirement!
 ### Everything looks the same
 
 This is a criticism a lot of people have that I don't entirely share, however I thought I'd mention it anyway. Many sites
-are using basic bootstrap stuff without tweaking it much--doesn't really bother me, I think it's an important tool for
+are using basic bootstrap stuff without tweaking it much&mdash;doesn't really bother me, I think it's an important tool for
 developers who aren't designers.
 
 
@@ -81,6 +88,9 @@ plugins, examples, tutorials, videos, etc. for Bootstrap.
 
 
 
+<p align="center" style="margin: 50px;">
+    <img src="images/ionic_vs_bootstrap/ionic.png" alt="Ionic framework"><br>
+</p>
 
 ## Ionic's iconic infamous items (pros)
 
@@ -144,7 +154,7 @@ it's not going terribly, here's what I have so far for my workout tracking app:
 
 
 <p align="center" style="margin: 50px;">
-    <img src="images/ionic/workout_app1.png" alt="Personal Record workout app"><br>
+    <img src="images/ionic_vs_bootstrap/workout_app1.png" alt="Personal Record workout app"><br>
     <i><small>Workout entry screen. This took a few hours and looks terrible but,<br> I'm happy with the performance so far!</small></i>
 </p>
 

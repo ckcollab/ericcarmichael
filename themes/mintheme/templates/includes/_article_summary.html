@@ -1,0 +1,24 @@
+<div class="article">
+    <a href="{{ SITEURL }}/{{ article.url }}">
+        <h1 class="title">{{ article.title }}</h1>
+    </a>
+
+    {{ article.summary }}
+
+    <div class="date">&mdash; {{ article.date|strftime('%d %B %Y') }}</div>
+
+    <div class="article-footer">
+        {% if article.tags %}
+            <div class="tags">
+                <i class="fa fa-tags"></i>
+                {% for tag in article.tags %}
+                    <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+                {% endfor %}
+                <br>
+            </div>
+        {% endif %}
+        <div class="category">
+            <i class="fa fa-folder-o"></i> <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+        </div>
+    </div>
+</div>

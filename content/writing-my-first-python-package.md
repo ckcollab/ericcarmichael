@@ -2,6 +2,7 @@ Title: Writing my first python package
 Date: 2014-4-14 13:00
 Tags: python, existence, pypi, pelican, fabric
 Category: python
+Summary: I've been looking make a little python package to launch on [pypi](https://pypi.python.org/) for quite some time. With all of my recent [Pelican](http://getpelican.com) blog tweaking, I am having about 50 urges per second to improve the development a little bit.
 
 
 I've been looking make a little python package to launch on [pypi](https://pypi.python.org/) for quite some time. With
