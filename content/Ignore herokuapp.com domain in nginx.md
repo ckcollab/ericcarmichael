@@ -1,5 +1,5 @@
 Title: Ignore herokuapp.com domain in nginx
-Date: 2014-4-22 15:10
+Date: 2014-4-23 01:50
 Category: snippets
 Tags: heroku, nginx, snippets
 
