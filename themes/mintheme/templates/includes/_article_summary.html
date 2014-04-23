@@ -3,7 +3,7 @@
         <h1 class="title">{{ article.title }}</h1>
     </a>
 
-    {{ article.summary }}
+    {{ article.summary }} <small><a href="{{ SITEURL }}/{{ article.url }}">&hellip;read more</a></small>
 
     <div class="date">&mdash; {{ article.date|strftime('%d %B %Y') }}</div>
 
