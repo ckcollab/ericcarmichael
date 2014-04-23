@@ -85,6 +85,10 @@ examples for nearly everything.
 Bootstrap is getting more and more mature, people know how to use it and appreciate it. There are lots of tried-and-true
 plugins, examples, tutorials, videos, etc. for Bootstrap.
 
+### Tons of nice features
+
+Typeahead, image sliders, on and on. So many useful little features, so easy to use and expand. It's nice to be able to
+rely on a library *most* of the time!
 
 
 
@@ -122,11 +126,9 @@ where all data is stored.
 
 ### Kind of confusing docs/dist
 
-Maybe it's because I am so used to how Bootstrap has everything laid out, but it just feels a little wonky sometimes.
-
-I was trying to find out what exactly is in the zip distribution file and I was confused about `ionic.bundle.js` vs
-`ionic.js` or `ionic-angular.js`. It's probably something that's a given to most front end developers, but I didn't
-understand it.
+Maybe it's because I am so used to how Bootstrap has everything laid out, but it just feels a little wonky and lacking
+sometimes. For example, how the hell do I use that awesome list of animations? How do I use gestures? I had to look at
+the source code to figure out what I was doing wrong.
 
 ### Purely mobile
 
@@ -147,7 +149,8 @@ really need like 10 colors for buttons?
 ## Conclusion
 
 Ionic seems to only support mobile, although it says it is a Hybrid framework. I feel like Bootstrap is much better at
-doing desktop.
+doing desktop. This comparison seems more apples to orange than I first suspected, these frameworks are solving totally
+different things.
 
 I am going to give Ionic a shot for my next app even though it only seems to support mobile, I have already started and
 it's not going terribly, here's what I have so far for my workout tracking app:
