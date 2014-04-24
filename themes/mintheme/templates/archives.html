@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <title>Archives - Eric's Nerdery python development blog</title>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Archives for the nerdery</h1>
+
+                {% for year, date_year in dates|groupby( 'date.year' )|sort(reverse=True) %}
+                    <h2>{{ year }}</h2>
+                    <ol style="list-style-type: none;">
+                        {% for article in date_year %}
+                            <li class="clearfix" style="margin-top: 10px;">
+                                <a href="{{ article.url }}">
+                                    <time datetime="{{ article.date.isoformat() }}" pubdate>{{ article.date.strftime("%d %B") }}</time> &mdash;
+                                    {{ article.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ol>
+                {% endfor %}
+
+
+                <h2>Tags</h2>
+                <ul style="list-style-type: none;">
+                    {% for tag in tag_cloud|sort %}
+                        <li class="tag-{{ tag.1 }}"><a href="{{ SITEURL }}/{{ tag.0.url }}">{{ tag.0 }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
