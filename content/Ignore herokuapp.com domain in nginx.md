@@ -4,10 +4,10 @@ Category: snippets
 Tags: heroku, nginx, snippets
 
 
-I was having some trouble with duplicate content from my blog `ericcarmichael.com` being replicated on `myapp.herokuapp.com`.
+I was having some trouble with duplicate content from my blog `ericcarmichael.com` being replicated on `ericcarmichael.herokuapp.com`.
 
 I added this little bit to my [Pelican buildout fork](https://github.com/ckcollab/heroku-buildpack-pelican) and now
- requests directly to the `herokuapp.com` domain are denied by nginx!
+ requests to `myapp.herokuapp.com` domain are denied by nginx!
 
 
     http {
@@ -19,7 +19,7 @@ I added this little bit to my [Pelican buildout fork](https://github.com/ckcolla
         server {
             listen <%= ENV["PORT"] %>;
 
-            server_name yourapp.com www.yourapp.com;
+            server_name myapp.com www.myapp.com;
         }
     }
 
