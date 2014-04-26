@@ -34,11 +34,20 @@ h1 {
     font-size: 50px;
     border-bottom: 1px solid hsl(197, 7%, 16%);
     margin-top: 60px;
+    word-break: break-word;
 }
 h2 { font-size: 36px; }
 img {
     padding: 10px;
     border: 1px solid #292929;
+}
+code {
+    // Make it wrap for mobile
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
 }
 
 /*
@@ -210,6 +219,9 @@ img {
 /*
  * Useful styles
  */
+.image-wrapper {
+    padding: 50px;
+}
 .image-full-width {
     width: 100%;
 }

@@ -36,6 +36,7 @@ h1 {
   font-size: 50px;
   border-bottom: 1px solid #262a2c;
   margin-top: 60px;
+  word-break: break-word;
 }
 h2 {
   font-size: 36px;
@@ -43,6 +44,13 @@ h2 {
 img {
   padding: 10px;
   border: 1px solid #292929;
+}
+code {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
 }
 /*
  * Base stuff, header/footer
@@ -172,6 +180,7 @@ img {
                 padding-left: 10px;
                 margin-left: 20px;
             }*/
+
 }
 .resume_page .skills-and-fun .fa-star {
   float: left;
@@ -188,6 +197,9 @@ img {
 /*
  * Useful styles
  */
+.image-wrapper {
+  padding: 50px;
+}
 .image-full-width {
   width: 100%;
 }

@@ -80,4 +80,10 @@
   .footer .social-icons {
     margin-top: 25px;
   }
+  img {
+    width: 100%;
+  }
+  .image-wrapper {
+    padding: 0;
+  }
 }
