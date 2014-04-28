@@ -34,7 +34,7 @@ things that definitely bug me and I'd love to learn about some alternatives.
 
 
 <p align="center" class="image-wrapper">
-    <img src="images/ionic_vs_bootstrap/bootstrap.png" alt="Bootstrap"><br>
+    <img src="images/ionic_vs_bootstrap/bootstrap.png" alt="Bootstrap" class="image-full-width"><br>
 </p>
 
 
