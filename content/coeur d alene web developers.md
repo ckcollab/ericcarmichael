@@ -4,7 +4,7 @@ Category: web development
 Tags: web development, development
 
 
-
+I thought I'd take a moment to talk about what I do and where I do it, here it goes!
 
 ## Why web development?
 
@@ -37,4 +37,4 @@ restaurants is in Post Falls: [Fleur de Sel](http://fleur-de-sel.weebly.com/)&md
 
 ## #represent
 
-That's how I ended up in web development and why I love CDA! 
+That's how I ended up in web development and why I love CDA!
