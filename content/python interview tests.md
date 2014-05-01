@@ -2,6 +2,8 @@ Title: Python Interview Tests
 Date: 2014-5-1 15:10
 Category: python
 Tags: python, web development, development, hiring, employment
+Summary: I have been applying to a lot of jobs lately and I've done quite a few "prove you know what's up" tests and projects. I think it might be a good exercise to go over them in my head and talk about how everyone could win from these tests. <br><br>Note: this write up is meant for **remote** development work!
+
 
 I have been applying to a lot of jobs lately and I've done quite a few "prove you know what's up" tests and projects. I
 think it might be a good exercise to go over them in my head and talk about how everyone could win from these tests.
