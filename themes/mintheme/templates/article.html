@@ -4,6 +4,8 @@
     <title>{{ article.title }} - Eric's Nerdery python development blog</title>
 {% endblock %}
 
+{% block meta_description %}{{ article.summary|striptags }}{% endblock %}
+
 {% block content %}
     <div class="container">
         <div class="row">
