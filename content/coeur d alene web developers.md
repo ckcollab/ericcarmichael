@@ -11,9 +11,9 @@ I thought I'd take a moment to talk about what I do and where I do it, here it g
 I've always loved solving problems. In high school one of my *hobbies*, if you can believe it, was helping out the teachers
 by making tools for grading, quizzes and studying.
 
-In college however my tastes were starting to change, I switched from Computer Science to Education and my plan in life
-was to be a teacher. Everything changed when my mother was in a terrible motorcycle accident. She came out of a coma with
-a 1% chance to survive, but with massive brain damage.
+In college my tastes drifted away from Computer Science. I switched to Education and my plan in life
+was to become a teacher. Everything changed when my mother was in a terrible motorcycle accident. She came out of a coma with
+a 1% chance to survive, but she suffered massive brain damage.
 
 I dropped out of school and moved home to help, but I needed some way to make a living with a flexible schedule so I could
 stay with my mum. I picked back up web development and here I am today about three years later.
