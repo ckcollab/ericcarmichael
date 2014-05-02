@@ -63,7 +63,7 @@ own tools: that is a bad experience for everyone. Valuable time is soaked up dur
 X and framework Y.
 
 Instead, the applicant should be encouraged to use whatever strategy they see fit to solve the problem
-and then they should be tasked with explaining *why* they chose that route. Often times when you meet a new programmer,
+and then they should be tasked with explaining *why* they chose that route. Often times when you meet someonew new,
 they have a few tricks up their sleeve you may have never seen before!
 
 ### Another bad experience I had
