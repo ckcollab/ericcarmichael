@@ -73,3 +73,12 @@ numbers and statistics.
 
 To make it easier to use, I made a simple app and threw it on pypi called [django-pin-passcode](https://github.com/ckcollab/django-pin-passcode).
 It logs you in to the user you define after you enter a certain passcode composed of 0-9 and #.
+
+
+## Stats
+
+<p align="center" class="image-wrapper">
+    <img src="images/chinup/stats.png" alt="highchart stats" class="image-full-width">
+</p>
+
+Some pretty weak stats for now, will get lots of cooler stuff in there!
