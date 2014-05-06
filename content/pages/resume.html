@@ -3,9 +3,9 @@
 <body>
     <div class="resume_page">
         <div class="row">
-            <div class="col-lg-4 skills-and-fun">
-                <div class="skills col-lg-12 col-sm-6 col-xs-12">
-                    <h1>Skills</h1>
+            <div class="col-lg-4 frameworks-and-fun">
+                <div class="frameworks col-lg-12 col-sm-6 col-xs-12">
+                    <h1>Libs</h1>
 
                     <h3>Backend</h3>
                     <ul>
@@ -39,7 +39,7 @@
             <div class="visible-md visible-sm visible-xs" style="clear:both;"></div>
 
             <div class="col-lg-8">
-                <h1>Experience</h1>
+                <h1>Skills</h1>
 
                 <div id="skill_graph"></div>
 
@@ -80,7 +80,7 @@
                         type: 'column',
                         margin: 75,
                         backgroundColor: '#0A0A0A',
-                        height: 275,
+                        height: 307,
                         options3d: {
                             enabled: true,
                             alpha: 15,
@@ -93,15 +93,23 @@
                         enabled: false
                     },
                     yAxis: {
+                        ceiling: 5,
+                        max: 5,
                         title: {
                             text: 'Rating (1-5)'
                         }
                     },
                     xAxis: {
-                        categories: ['Python', 'Javascript', 'C#']
+                        categories: ['Python', 'Javascript', 'C#', 'Exciting Graphs']
                     },
                     title: {
                         text: ''
+                    },
+                    tooltip: {
+                        followPointer: true,
+                        formatter: function() {
+                            return '<b>' + this.x + ' ' + this.y + ' out of 5</b>';
+                        }
                     },
                     plotOptions: {
                         column: {
@@ -110,7 +118,8 @@
                     },
                     series: [
                         {
-                            data: [3.5, 3, 3]
+                            data: [4, 3, 3, 10],
+                            color: '#428BCA'
                         }
                     ]
                 });
