@@ -39,6 +39,10 @@
             <div class="visible-md visible-sm visible-xs" style="clear:both;"></div>
 
             <div class="col-lg-8">
+                <h1>Experience</h1>
+
+                <div id="skill_graph"></div>
+
                 <h1>Work</h1>
                 <!--
                 <h3>Personal Record</h3>
@@ -61,6 +65,57 @@
                     didn't end up going anywhere. This is a replica of what the site was, with many features disabled.</p>
             </div>
         </div>
+
+
+
+        <script type="text/javascript" src="../theme/js/jquery.js"></script>
+        <script type="text/javascript" src="../theme/js/highcharts.js"></script>
+        <script type="text/javascript" src="../theme/js/highcharts-3d.js"></script>
+        <script>
+            (function() {
+                // Set up the chart
+                var chart = new Highcharts.Chart({
+                    chart: {
+                        renderTo: 'skill_graph',
+                        type: 'column',
+                        margin: 75,
+                        backgroundColor: '#0A0A0A',
+                        height: 275,
+                        options3d: {
+                            enabled: true,
+                            alpha: 15,
+                            beta: 15,
+                            depth: 50,
+                            viewDistance: 25
+                        }
+                    },
+                    legend: {
+                        enabled: false
+                    },
+                    yAxis: {
+                        title: {
+                            text: 'Rating (1-5)'
+                        }
+                    },
+                    xAxis: {
+                        categories: ['Python', 'Javascript', 'C#']
+                    },
+                    title: {
+                        text: ''
+                    },
+                    plotOptions: {
+                        column: {
+                            depth: 25
+                        }
+                    },
+                    series: [
+                        {
+                            data: [3.5, 3, 3]
+                        }
+                    ]
+                });
+            })();
+        </script>
     </div>
 </body>
 
