@@ -4,16 +4,20 @@ Category: python
 Tags: python, web development, development, motivation
 
 
-[Chin Up](https://github.com/ckcollab/chin-up) is a motivation tracker, that is, every day I rate from 1 to 10 how I am feeling. There are two types of metrics:
-
- * Daily
- * Monthly
-
-It is meant to be hosted locally/somewhere free, like [Heroku](http://heroku.com).
+[Chin Up](https://github.com/ckcollab/chin-up) is a motivation tracker. Every day I rate from 1 to 10 how I am feeling in
+ certain metrics like strength, flexibility, relationships and happiness.
 
 <p align="center" class="image-wrapper">
     <img src="images/chinup/home_view.png" alt="Home View of Chin Up" class="image-full-width">
 </p>
+
+
+There are two types of metrics:
+
+ * Daily - Measured every day
+ * Monthly - Measured on the first of every month
+
+It is meant to be hosted locally/somewhere free, like [Heroku](http://heroku.com).
 
 
 ## What I track
