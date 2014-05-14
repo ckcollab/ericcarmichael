@@ -2,7 +2,7 @@ Title: Ionic vs Bootstrap
 Date: 2014-4-22 15:10
 Category: web development
 Tags: ionic, javascript, css, web development, development
-Summary: I am writing this as a tool to help me learn more about [Ionic](http://ionicframework.com/) and [Bootstrap](http://getbootstrap.com) to decide which, if either, library to use for my new hybrid web app. My app has to look good and function well on desktop, tablet and mobile.
+Summary: I am writing this as a tool to help me learn more about [Ionic](http://www.ionicframework.com/) and [Bootstrap](http://getbootstrap.com) to decide which, if either, library to use for my new hybrid web app. My app has to look good and function well on desktop, tablet and mobile.
 
 
 
