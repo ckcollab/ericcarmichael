@@ -85,4 +85,8 @@ It logs you in to the user you define after you enter a certain passcode compose
     <img src="images/chinup/stats.png" alt="highchart stats" class="image-full-width">
 </p>
 
-Some pretty weak stats for now, will get lots of cooler stuff in there!
+ * **Month to month** - Average for the entire month
+ * **Week to week** - Average for the entire week
+ * **Day of the week** - Average for that day of the week for the last year
+ * **7 day** - Last 7 day simple
+ * **30 day** - Last 30 day simple
