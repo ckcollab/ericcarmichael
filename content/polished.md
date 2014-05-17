@@ -72,8 +72,10 @@ And I had to "polish" these videos to get them just right, fix bad links for som
 
 Requires:
 
+* Mac
 * [NodeJS](http://nodejs.org/)
 * [PhantomJS](http://phantomjs.org/)
+* [ffmpeg](http://www.ffmpeg.org/)
 
 Then the usual
 
