@@ -14,6 +14,10 @@ I haven't watched every single one so please be sure to recommend your favorites
     .youtube {
         padding-top: 40px;
     }
+
+    .youtube + p {
+        padding-bottom: 100px;
+    }
 </style>
 
 
@@ -28,7 +32,7 @@ interesting ways to reverse engineering/research a huge codebase.
 <i>"Discovering Python"</i>
 </p>
 
--------------------
+
 
 
 
@@ -53,7 +57,7 @@ and do my best&mdash;no reason to worry!
 <i>"It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech - PyCon 2014"</i>
 </p>
 
--------------------
+
 
 
 
@@ -74,7 +78,7 @@ This also goes into quite a bit of arduino stuff which is something I am trying 
 
 
 
--------------------
+
 
 
 ## Memcached ins-and-outs
