@@ -52,6 +52,9 @@ code {
   white-space: -o-pre-wrap;
   word-wrap: break-word;
 }
+hr {
+  border-top: 1px solid #262a2c;
+}
 /*
  * Base stuff, header/footer
  */
