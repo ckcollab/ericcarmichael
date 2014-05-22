@@ -97,6 +97,13 @@ really enjoyed this presentation.
 
 
 
+## Machine learning for personalized Hacker News
+
+[Ned Jackson Lovely](https://twitter.com/nedjl) did an awesome presentation on machine learning/sciki. It was very beginner
+friendly. My favorite part was probably the flow chart "if you have less than 50 samples, get more samples."
 
 
-
+<iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/O7IezJT9uSI?rel=0" frameborder="0" allowfullscreen></iframe>
+<p align="center">
+<i>"Enough Machine Learning to Make Hacker News Readable Again"</i>
+</p>
