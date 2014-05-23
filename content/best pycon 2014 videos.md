@@ -7,7 +7,7 @@ Summary: I have been binge watching Pycon 2014 videos and I thought I might as w
 I have been binge watching Pycon 2014 videos and I thought I might as well make that productive somehow, so here's a list of
 the best videos (in my *very humble* opinion)!
 
-I haven't watched every single one so please be sure to recommend your favorites in the comments!
+I haven't watched every single Pycon video so please be sure to recommend your favorites in the comments!
 
 
 <style>
