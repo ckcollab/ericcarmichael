@@ -48,8 +48,8 @@ important to me, because I am starting a new job soon and there's a large part o
 
 That is **bull shit!**
 
-I don't know why we get these strange fears. Everyone has that awkward first day but I'm sure everyone at my new job is
-absolutely looking out for my best interests. They want me to be happy and feel welcomed, so I just need to think positive
+I don't know why we get these strange fears. Everyone has that awkward first day but I'm sure at my new job the people
+are looking out for my best interests. They want me to be happy and feel welcomed, so I just need to think positive
 and do my best&mdash;no reason to worry!
 
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/1i8ylq4j_EY?rel=0" frameborder="0" allowfullscreen></iframe>
