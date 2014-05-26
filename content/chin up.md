@@ -102,3 +102,13 @@ It logs you in to the user you define after you enter a certain passcode compose
  * **Day of the week** - Average for that day of the week for the last year
  * **7 day** - Last 7 day simple
  * **30 day** - Last 30 day simple
+
+
+## Correlations
+
+<p align="center" class="image-wrapper">
+    <img src="images/chinup/correlations.png" alt="Correlations" class="image-full-width">
+</p>
+
+Thanks to numpy I added really quick correlations between metrics, it's pretty ugly but it will tell you what metrics
+might positively/negatively correlate to each other.
