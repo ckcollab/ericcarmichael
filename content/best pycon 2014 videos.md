@@ -107,3 +107,22 @@ friendly. My favorite part was probably the flow chart "if you have less than 50
 <p align="center">
 <i>"Enough Machine Learning to Make Hacker News Readable Again"</i>
 </p>
+
+
+
+
+
+## Computer Science education in the US
+
+[Jessica McKellar](https://twitter.com/jessicamckellar) talks about how we could get more kids involved with computer science.
+What I thought stood out about her presentation was concrete ideas/details, like:
+
+ * Make Computer Science count as a Math/Sci credit instead of being an elective -- encourages teachers and students to take it more seriously
+ * Switch from Java to Python&mdash;don't throw people into the deep end of OOP, etc.
+ * Call your local school board/legislature and talk about the above simple steps.
+
+
+<iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/4QOoAw6Su7M?rel=0" frameborder="0" allowfullscreen></iframe>
+<p align="center">
+<i>"Keynote"</i>
+</p>
