@@ -28,5 +28,5 @@ The process id in this case is `2778`, now let's use this snippet to watch on `-
 ```
 
 
-Thanks to this [Stack Overflow](http://stackoverflow.com/questions/249703/how-can-a-process-intercept-stdout-and-stderr-of-another-process-on-linux) for giving me a neat solution as usual.
+Thanks to [Lari Hotari](http://stackoverflow.com/questions/249703/how-can-a-process-intercept-stdout-and-stderr-of-another-process-on-linux) for giving everyone a neat solution.
 
