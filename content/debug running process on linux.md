@@ -1,0 +1,24 @@
+Title: Debug running process on Linux
+Date: 2014-8-28 15:10
+Category: web development
+Tags: web development, development, dev ops
+
+
+I am working on putting out a serious fire now. I am getting into that weird head space where you grow as a developer,
+the place where all hair is pulled out, desks are slammed, "WHAAT!?" is screamed every 45 minutes, but you
+can't really force yourself to take a break.
+
+```
+> ps -ef | grep worker
+1000 2778 2308 0 Aug28 ? 00:00:03 /home/supertastic/worker.py
+> sudo strace -f -e trace=write -e verbose=none -e write=1,2 -q -p 2778 -o "| grep '^ |' | cut -c11-60 | sed -e 's/ //g' | xxd -r -p"
+2014-08-29 02:14:09,459 DEBUG Received message: {"task_type": "evaluate_submission"}
+2014-08-29 02:14:09,460 INFO Running task: id=10131 task_type=evaluate_submission
+2014-08-29 02:14:09,461 DEBUG evaluate_submission_task begins (job_id=10131)
+2014-08-29 02:14:09,462 DEBUG evaluate_submission_task submission_id=9481 (job_id=10131)
+```
+
+Gives you some insight into the process' `stdout`, which was all I needed.
+
+Thanks to this [Stack Overflow](http://stackoverflow.com/questions/249703/how-can-a-process-intercept-stdout-and-stderr-of-another-process-on-linux) for giving me a neat solution as usual.
+
