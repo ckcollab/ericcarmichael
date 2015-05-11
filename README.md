@@ -12,6 +12,20 @@ Environment variables
 export PELICAN_SITE_URL="http://ericcarmichael.com"
 ```
 
+Getting started
+===============
+
+`pip install -r requirements.txt`
+
+`export PELICAN_SITE_URL="file:///Users/you/your/blog/dir/output"`
+
+Writing articles
+================
+
+`make regenerate`
+
+this will write to `output/` whenever you change the articles in `content/`
+
 Fab commands
 ============
 
