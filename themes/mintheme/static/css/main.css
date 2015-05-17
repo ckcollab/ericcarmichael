@@ -63,7 +63,8 @@ hr {
 }
 .header .eric {
   float: left;
-  margin: 15px;
+  margin: 25px;
+  margin-left: 0;
   margin-right: 35px;
   border: 0;
   padding: 0;
@@ -76,7 +77,7 @@ hr {
   font-weight: 300 !important;
   margin-top: 35px;
   border-bottom: 0;
-  color: #ababab;
+  color: #3d3d3d;
   line-height: 1.1;
   margin-bottom: 10px;
 }
@@ -127,6 +128,9 @@ hr {
 .article {
   padding-bottom: 60px;
 }
+.article .title {
+  text-align: center;
+}
 .article .date {
   margin-top: 20px;
   color: #2b2b2b;
@@ -142,6 +146,9 @@ hr {
 }
 .article .article-footer .tags {
   margin-top: 20px;
+}
+.article h1 {
+  line-height: 78px;
 }
 .article h2 {
   margin-top: 60px;

@@ -3,7 +3,7 @@
  */
 @media all and (max-width: 1200px) {
   .header .eric {
-    margin-top: -15px;
+    margin-left: 25px;
   }
   .resume_page .fun_title {
     margin-top: 60px;
@@ -35,6 +35,9 @@
 @media all and (max-width: 660px) {
   .header {
     text-align: center;
+  }
+  .header .col-xs-offset-2 {
+    margin-left: 0;
   }
   .header .eric {
     float: none;

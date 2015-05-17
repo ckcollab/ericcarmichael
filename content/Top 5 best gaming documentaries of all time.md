@@ -2,7 +2,7 @@ Title: Top 5 best gaming documentaries of all time
 Date: 2015-5-11 15:10
 Category: gaming
 Tags: gaming, competition, mindset
-Summary: The best of gaming's competitive attitudes, cultures and raw skill. <p align="center" class="image-wrapper"><img src="images/top_5_gaming_docs/brood_war.jpg" alt="StarCraft: Brood War"></p>
+Summary: The best of gaming's competitive attitudes, cultures and raw skill. To me these are the documentaries I'll look back at like my dad looks back at Superbowl 1. <p align="center" class="image-wrapper"><img src="images/top_5_gaming_docs/brood_war.jpg" alt="StarCraft: Brood War"></p>
 
 <p align="center" class="image-wrapper">
     <img src="images/top_5_gaming_docs/brood_war.jpg" alt="StarCraft: Brood War"><br>
@@ -15,7 +15,9 @@ I begged him for a rematch and thankfully he oblidged. He beat me again. Getting
 time I won't make such silly mistakes.
 
 He crushed me. We were playing on Lost Temple and he cheesed me by building a pylon where I would put my supply
-depot on the ramp then building cannons. That son of a bitch! Something about how he was playing was beautiful, 
+depot on the ramp. Shit now I can't wall off... what!? Now he's building cannons... that son of a bitch!
+
+Something about how he was playing was beautiful,
 I almost beat him every game but he had such clever solutions to problems I thought were insurmountable. I checked the 
 replays and he was doing hundreds of actions a minute compared to my dozens.
 
