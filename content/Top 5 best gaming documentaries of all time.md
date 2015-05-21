@@ -2,7 +2,7 @@ Title: Top 5 best gaming documentaries of all time
 Date: 2015-5-11 15:10
 Category: gaming
 Tags: gaming, competition, mindset
-Summary: The best of gaming's competitive attitudes, cultures and raw skill. To me these are the documentaries I'll look back at like my dad looks back at Superbowl 1. <p align="center" class="image-wrapper"><img src="images/top_5_gaming_docs/brood_war.jpg" alt="StarCraft: Brood War"></p>
+Summary: The best of gaming competitiveness, attitude, culture and raw skill. To me these are the documentaries I'll look back at like my dad looks back at Superbowl 1. <p align="center" class="image-wrapper"><img src="images/top_5_gaming_docs/brood_war.jpg" alt="StarCraft: Brood War"></p>
 
 <p align="center" class="image-wrapper">
     <img src="images/top_5_gaming_docs/brood_war.jpg" alt="StarCraft: Brood War"><br>

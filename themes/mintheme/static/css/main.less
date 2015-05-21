@@ -55,27 +55,47 @@ hr {
 }
 
 /*
+ * Global stuff
+ */
+.center-block {
+    float: none;
+}
+
+
+// maybe do this some day...
+.browsing-header {
+    &.affix {
+        background-color: white;
+        z-index: 2;
+        width: 100%;
+        height: 40px;
+        top: 0;
+    }
+}
+
+/*
  * Base stuff, header/footer
  */
 .header {
     margin-bottom: 30px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
     .eric {
         float: left;
-        margin: 25px;
-        margin-left: 0;
         margin-right: 35px;
+        margin-left: 50px;
         border: 0;
-        padding: 0;
-
-        background-image: url('../images/eric4.png');
-        width: 138px;
-        height: 138px;
+        &.large {
+            display: none;
+        }
     }
     .title {
         font-size: 50px;
         font-weight: 300 !important;
-        margin-top: 35px;
+        padding-top: 28px;
         border-bottom: 0;
         color: @title_white;
         line-height: 1.1;
@@ -83,6 +103,8 @@ hr {
     }
 
     .menu {
+        display: inline-block;
+        margin-left: -36px;
         ul {
             list-style-type: none;
 
@@ -96,8 +118,8 @@ hr {
         }
     }
 
-    .title, .menu {
-        margin-left: 15px;
+    &.stuck {
+        position: fixed;
     }
 }
 
