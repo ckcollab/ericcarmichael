@@ -54,6 +54,7 @@
   }
   .header .menu {
     margin-left: 0;
+    display: block;
   }
   .header .menu ul {
     padding: 0;
