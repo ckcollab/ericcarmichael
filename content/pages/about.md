@@ -2,13 +2,9 @@ Title: About
 
 # About
 
-### Who am I?
-
 <img class="image-full-width" alt="Me, my girlfriend's kiddo Austen and my girlfriend Kat" src="../images/eric_and_kat.jpg">
 
 &mdash; Me, my girlfriend's kiddo Austen and my girlfriend Kat
-
-### What am I about?
 
 <img class="image-full-width" alt="Kayaking in Coeur d'Alene" src="../images/kayak.jpg">
 
