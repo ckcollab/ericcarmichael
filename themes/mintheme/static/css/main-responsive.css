@@ -2,9 +2,6 @@
  * Responsive jazz
  */
 @media all and (max-width: 1200px) {
-  .header .eric {
-    margin-left: 25px;
-  }
   .resume_page .fun_title {
     margin-top: 60px;
   }
@@ -43,10 +40,14 @@
     float: none;
     display: block;
     margin: 0 auto;
-    margin-bottom: 60px;
-    background-image: url('../images/eric4_large.png');
     width: 275px;
     height: 275px;
+  }
+  .header .eric.small {
+    display: none;
+  }
+  .header .eric.large {
+    display: block;
   }
   .header .title {
     display: none;

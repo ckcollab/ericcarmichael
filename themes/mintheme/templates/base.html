@@ -18,31 +18,38 @@
     <meta name="msvalidate.01" content="A1FE311F600CE96CD093FD3AF6E454C2"/>
     <meta name="google-site-verification" content="VxGeYPx8baCDnWPsbWOV8BCwOX5AJH3nAtvZFT9KPaU"/>
 
-    <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico?v=2" type="image/x-icon">
 
     <link href='http://fonts.googleapis.com/css?family=Merriweather:300,400' rel='stylesheet' type='text/css'>
 
     {% assets filters="cssmin", output="css/packed.min.css", "css/bootstrap.min.css", "css/font-awesome.min.css", "css/pygment-solarized-dark.css", "css/main.css", "css/main-responsive.css" %}
         <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
     {% endassets %}
+
+    {% assets filters="jsmin", output="js/packed.min.js", "js/jquery.js", "js/bootstrap.min.js" %}
+        <script type="application/javascript" src="{{ SITEURL }}/{{ ASSET_URL }}"></script>
+    {% endassets %}
 </head>
 <body>
-    <div class="container header">
-        <div class="row large_screen_nav">
-            <div class="col-lg-offset-4 col-lg-6 col-sm-offset-3 col-sm-8 col-xs-offset-2">
-                <a href="{{ SITEURL }}/index.html" class="eric">&nbsp;</a><br>
+    <div class="header">
+        <a href="{{ SITEURL }}/index.html">
+            <img class="eric small" src="{{ SITEURL }}/theme/images/eric4.png" height="138" width="138" alt="Eric Carmichael"/>
+            <img class="eric large" src="{{ SITEURL }}/theme/images/eric4_large.png" height="275" width="275" alt="Eric Carmichael"/>
+        </a>
 
-                <div class="title">nerdery</div>
+        <div class="title">nerdery</div>
 
-                <div class="menu">
-                    <ul>
-                        <li><a href="{{ SITEURL }}/index.html">blog</a></li>
-                        <li><a href="{{ SITEURL }}/pages/about.html">about</a></li>
-                        <li><a href="{{ SITEURL }}/pages/resume.html">résumé</a></li>
-                    </ul>
-                </div>
-            </div>
+        <div class="menu">
+            <ul>
+                <li><a href="{{ SITEURL }}/index.html">blog</a></li>
+                <li><a href="{{ SITEURL }}/pages/about.html">about</a></li>
+                <li><a href="{{ SITEURL }}/pages/resume.html">résumé</a></li>
+            </ul>
         </div>
+    </div>
+
+    <div class="browsing-header">
+
     </div>
 
     {% block content %}
@@ -69,12 +76,20 @@
 
     <script type="text/javascript">
         window.onload = function() {
+            // Load outside links into another window
             var anchors = document.getElementsByTagName('a');
             for (var i = 0; i < anchors.length; i++) {
                 if (anchors[i].hostname != window.location.hostname) {
                     anchors[i].setAttribute('target', '_blank');
                 }
             }
+
+            // Make header fixed on scroll
+            //$('.browsing-header').affix({
+            //      offset: {
+            //        top: $('.header').height()
+            //      }
+            //});
         };
 
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

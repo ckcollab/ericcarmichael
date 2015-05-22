@@ -56,30 +56,49 @@ hr {
   border-top: 1px solid #262a2c;
 }
 /*
+ * Global stuff
+ */
+.center-block {
+  float: none;
+}
+.browsing-header.affix {
+  background-color: white;
+  z-index: 2;
+  width: 100%;
+  height: 40px;
+  top: 0;
+}
+/*
  * Base stuff, header/footer
  */
 .header {
   margin-bottom: 30px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header .eric {
   float: left;
-  margin: 25px;
-  margin-left: 0;
   margin-right: 35px;
+  margin-left: 50px;
   border: 0;
-  padding: 0;
-  background-image: url('../images/eric4.png');
-  width: 138px;
-  height: 138px;
+}
+.header .eric.large {
+  display: none;
 }
 .header .title {
   font-size: 50px;
   font-weight: 300 !important;
-  margin-top: 35px;
+  padding-top: 28px;
   border-bottom: 0;
   color: #3d3d3d;
   line-height: 1.1;
   margin-bottom: 10px;
+}
+.header .menu {
+  display: inline-block;
+  margin-left: -36px;
 }
 .header .menu ul {
   list-style-type: none;
@@ -91,9 +110,8 @@ hr {
 .header .menu ul li:last-child {
   margin-right: 0;
 }
-.header .title,
-.header .menu {
-  margin-left: 15px;
+.header.stuck {
+  position: fixed;
 }
 .footer {
   padding-top: 120px;
@@ -190,7 +208,6 @@ hr {
                 padding-left: 10px;
                 margin-left: 20px;
             }*/
-
 }
 .resume_page .tools-and-fun .fa-star {
   float: left;
