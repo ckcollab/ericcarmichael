@@ -43,7 +43,7 @@ ways to be proud of what I do. Instead of just getting the work done, I take pri
 better solution. Not something perfect, but something I'm proud of.
 
 I've also made horrendous fuck ups. Huge security holes, missed details, and poorly designed features. Though these seem
-like awful things: this where my growth seems to be happening. By being forced to confront these problems without the 
+like awful things, this where my growth seems to be happening. By being forced to confront these problems without the 
 option to give up/change course: I am learning a fuck load.
 
 It's regular to get stuck for hours on something simple like forgetting to pass `*args, **kwargs` to a `super` method,
@@ -51,7 +51,7 @@ but in those painful hours I grow and stretch my brain around the problem. When 
 I am* with the small mistake, it's like taking a load off my shoulders.
 
 Sometimes it feels like I have no idea how I'll get to the finish line on a feature. That's getting more rare. My 
-confidence is growing that my weak points are shrinking. In the way I talk especially.
+confidence is growing that my weak points are shrinking. In the way I communicate especially.
 
 
 ## Good for you!
