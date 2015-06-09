@@ -39,7 +39,8 @@ By enriching my fellow developer: I'll be the richest man alive.
 ## The transition
 
 I'm not sure when the switch flipped, but my best guess is recently with changes at work I am seeking out more and more
-ways to be proud of what I do. Instead of just getting the work done, I take pride in learning about how 
+ways to be proud of what I do. Instead of just getting the work done, I take pride in taking my time implementing a 
+better solution. Not something perfect, but something I'm proud of.
 
 I've also made horrendous fuck ups. Huge security holes, missed details, and poorly designed features. Though these seem
 like awful things: this where my growth seems to be happening. By being forced to confront these problems without the 
