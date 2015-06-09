@@ -21,7 +21,22 @@ seeing people ask questions that I have no problem answering... what the hell! W
 transitioned from an entry-level-nobody to kinda-somebody-worth-listening-to.
 
 
-## How did this happen?
+## Being a newb
+
+When I was just getting started I vividly remember being helped by `FunkyBob` multiple times... I had no idea why he was
+helping me. Maybe now I'm finally starting to understand why he would helped me, but a few years ago I had no clue. In 
+fact, I was so clueless I sent the guy $25 to buy himself a pizza for helping me!
+
+Surely the pizza was a cool way to say "thanks" for all of the help, but that's not the real way to say thanks. The real
+way to say thanks would be to, myself, become able to give back to the community. 
+
+Monetary gain is seeming more and more like an empty pursuit. I've never had more money and at the same time I've never
+felt so... poor.
+
+By enriching my fellow developer: I'll be the richest man alive.
+
+
+## The transition
 
 I'm not sure when the switch flipped, but my best guess is recently with changes at work I am seeking out more and more
 ways to be proud of what I do. Instead of just getting the work done, I take pride in learning about how 
@@ -47,10 +62,9 @@ me around.
 What will keep me around is this:
 
 ```text
-...
 rpkilby: Babysuperman, thanks for the help
-...
+
 xcyclist: Yes, that did it. Thanks.
-...
+
 shutupsquare: Hey Thanks, I never even thought to have the items have a fk to the person, perfect, thanks guys.
 ```
