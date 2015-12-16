@@ -17,7 +17,8 @@ with the character name I can look up stats and track all of their games automat
 
 ## The process
 
-For example, watching [Krepo's)(http://www.twitch.tv/skumbagkrepo) stream:
+For example, watching [Krepo's](http://www.twitch.tv/skumbagkrepo) stream here's how I'd go about getting his
+character name.
 
 ### Get the stream frame
 
