@@ -1,7 +1,7 @@
 Title: Getting player names from Twitch streams or an exercise in futility
-Date: 2015-11-5 15:10
+Date: 2015-12-16 15:10
 Category: python
-Tags: python, web development, development
+Tags: python, web development, development, gaming, league of legends, twitch
 
 
 I had an idea last month for a site based around identifying Twitch streamers in game, recording game stats,
