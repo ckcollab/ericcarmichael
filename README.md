@@ -26,6 +26,11 @@ Writing articles
 
 this will write to `output/` whenever you change the articles in `content/`
 
+Buildpack
+=========
+
+If hosting on heroku use the [getpelican buildpack](https://github.com/getpelican/heroku-buildpack-pelican)
+
 Fab commands
 ============
 
