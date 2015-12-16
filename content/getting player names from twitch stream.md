@@ -129,3 +129,5 @@ The idea was super fun to pursue but it doesn't perform very well for a few reas
  
  
 So... it was a fun experiment but not very practical!
+
+You can find all the source [here](https://github.com/ckcollab/twitch-experiments).
