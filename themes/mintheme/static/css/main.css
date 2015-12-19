@@ -235,3 +235,12 @@ hr {
   display: block;
   margin: 0 auto;
 }
+
+
+#skill_graph {
+    margin-top: -10px;
+}
+
+.skills-container h3 {
+  padding-top: 15px;
+}

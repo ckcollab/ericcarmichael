@@ -4,13 +4,13 @@ Category: python
 Tags: python, web development, development, gaming, league of legends, twitch
 
 
-I had an idea last month for a site based around identifying Twitch streamers in game, recording game stats,
-and then having fantasy league style betting based around the stats... it was a fun experiment but my techniques
+I had an idea last month for a site based around identifying video game streamers while they are in game. If I can identify them
+in real time then I could have real time fantasy league style betting based around the stats... it was a fun experiment but my techniques
 ended up not being very practical.
 
 ## The Idea
 
-In League of Legends at least, was to find the "yellow health bar" that only your character has.
+In the game League of Legends I could try to find the "yellow health bar" that only your character has.
 Once I have the coordinates for the yellow health bar I can look above it to see the character name! Boom,
 with the character name I can look up stats and track all of their games automatically.
 
