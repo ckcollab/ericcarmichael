@@ -244,3 +244,22 @@ hr {
 .skills-container h3 {
   padding-top: 15px;
 }
+
+.resume_page .tools-and-fun ul {
+    margin: 25px 0;
+    text-align: center;
+}
+.resume_page .tools-and-fun li {
+  display: inline;
+}
+.resume_page .tools-and-fun li a {
+  display: inline-block;
+  background-color: rgba(43, 101, 151, 0.1);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.resume_page .tools-and-fun li .fa-star {
+  margin-left: 0;
+  padding-right: 5px;
+}
