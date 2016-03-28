@@ -54,8 +54,9 @@ We'll take a high level look at the tools I'm using on my current projects for m
 Riot components are just custom html tags with some html on top, some javascript and then your styles on the bottom.
 
 This web dev neapolitan seems weird at first... smashing template into logic while stylesheets sit in the corner wondering
-how they ended up in this place. However, it actually feels quite nice. Worry starts to shift from organizing spaghetti
-code and solving logic nightmares, because as soon as something "feels weird" you break it off into a new component.
+how they ended up in this place. However, it actually feels quite nice. Worry shifts from organizing spaghetti
+code to solving logic nightmares, because as soon as something "feels weird" you break it off into a new component. 
+Smaller/single purpose components are generally much easier to wrap your head around.
 
 When I first started doing this component style, I broke things out into components for no reason. That made things feel
 clunky and the usefulness of components wasn't making sense. When I started to feel like I had trouble seeing the flow
@@ -68,9 +69,9 @@ when saved it would update the `<table>`. As I was building this all out it star
 everything working in the proper order while maintaining some kind of clarity in the code. Then I had a great "A-ha!" 
 moment and split the `<table>` and the `<form>` into separate components! 
 
-I didn't also split out the pagination, I didn't split out the `<table>` rows... just those two big pieces. When you split
-*everything* into a component you get a mess. I find things will naturally split themselves up and anything else
-is "early optimization" and will probably make your code more fragile/hard to follow.
+I didn't also split out the pagination, I didn't split out the `<table>` rows... I simply split it into two big pieces. 
+When you split *everything* into a component you get a mess. I find things will naturally split themselves up and 
+anything else is "early optimization" and will probably make your code more fragile/hard to follow.
 
 
 ### What is Django REST Framework (DRF)?
@@ -143,7 +144,7 @@ class AddressSerializer(serializers.ModelSerializer):
 
         return super().validate(attrs)
 ```
-Above we're defining which fields we'll pull from the model. Wwhether the fields are required, what is valid data, etc.
+Above we're defining which fields we'll pull from the model. Whether the fields are required, what is valid data, etc.
 can be determined from the model fields. For example, you could have the `is_bill_to` and `is_ship_to` fields marked
 with `default=False` and DRF with automatically mark them as not required, as they have a default. We also check to 
 make sure at least one of the previously mentioned options is picked, as well as making sure names are unique to
@@ -165,7 +166,7 @@ Now I have all of these endpoints available to modify/view Addresses, WITH docum
 
 ### Tying them together?
 
-I'll go over how to tie these together API-wise, but I'll hand wave away everything to do with building your front end
+I'll briefly go over how to tie these together API-wise, but I'll hand wave away everything to do with building your front end
 and serving static content. Pick your poison, there are a million ways to solve those problems! :)
 
 I've recently learned a neat little practice to help with frontend dev is to make a wrapper for your API calls, this
@@ -262,7 +263,7 @@ dive into it past a few toy things but I don't really want to. However, there ar
 than myself and they seem to find React the perfect solution. They're way better frontenders than I am!
 
 React + Babel + some nice CSS libraries are probably the way to go if you're a pure frontender (or just love torture)
-but, for a mostly backend guy like me the simplicity and "sense" of Riot is irresistable. Things mostly work how they should
+but, for a mostly backend guy like me the simplicity and "sense" of Riot is irresistible. Things mostly work how they should
 and I don't have to learn a billion new things to do something I could have done using jQuery in 5 seconds.
 
 
