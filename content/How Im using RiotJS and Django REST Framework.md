@@ -226,6 +226,14 @@ window.EVENTS.trigger('force_update_address_list');
 window.EVENTS.on('force_update_address_list', do_update_address_list);
 ```
 
+From an even higher level the approach I've used on most CRUD pages goes like this:
+
+1. Get list of objects, display them in table
+2. Form for new objects or selecting object from table to popular form
+3. Form submits new or edits existing object
+4. Force list to update and retrieve new/updated object
+
+
 
 
 ### Why not React?
