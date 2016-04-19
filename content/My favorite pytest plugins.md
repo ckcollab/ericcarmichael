@@ -89,6 +89,6 @@ I know this is kind of a "who cares" blog post, but I'm trying to do at least
 one blog a month and this one popped into my head so I went for it!
 
 Hope it was worth something to somebody, there's already a great list of
-plugins [here]() but I didn't see any harm in outlining my faves.
+plugins [here](https://pytest.org/latest/plugins.html) but I didn't see any harm in outlining my faves.
 
 In any case, happy holidays tomorrow everyone! :)
