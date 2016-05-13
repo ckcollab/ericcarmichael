@@ -60,8 +60,8 @@ Smaller/single purpose components are generally much easier to wrap your head ar
 
 When I first started doing this component style, I broke things out into components for no reason. That made things feel
 clunky and the usefulness of components wasn't making sense. When I started to feel like I had trouble seeing the flow
-of logic through a form a tons of methods, I broke off parts of the form into separate ideas. The components can talk
-to each other through `riot.observables` with `observable.trigger('some_event', {some: 'data')` and 
+of logic through a form with a ton of methods I broke off parts into separate ideas. The components can talk
+to each other through `riot.observables` with `observable.trigger('some_event', {some: 'data'})` and 
 `observable.on('some_event', function(some_data){})`.
 
 For example, I recently built a `<table>` of users where you could click a row and it would appear in a `<form>`, then
@@ -112,7 +112,7 @@ class AddressViewSet(mixins.ListModelMixin,
 
 The above code checks some permissions using a custom class I made allowing per-method permissions. Also, anyone
 poking at the endpoints can only see certain things. Super users can see all Addresses, while regular users can 
-only see Addresses for their Company. All resorts are ordered by name. Awesome sauce! Just the logic we need, not much
+only see Addresses for their Company. All results are ordered by name. Awesome sauce! Just the logic we need, not much
 boiler plate coding. I love Python + DRF!
 
 
@@ -211,7 +211,7 @@ And in our HTML we'll put the tag:
 
 So. Easy. 
 
-We can change easily extend this to add/remove/modify addresses in beautiful ways, usually with some kind of global like
+We can easily extend the address tag to add/remove/modify addresses in beautiful ways, usually based on some events
 
 ```javascript
 // somewhere global
@@ -228,22 +228,22 @@ window.EVENTS.on('force_update_address_list', do_update_address_list);
 
 From an even higher level the approach I've used on most CRUD pages goes like this:
 
-1. Get list of objects, display them in table
-2. Form for new objects or selecting object from table to popular form
-3. Form submits new or edits existing object
-4. Force list to update and retrieve new/updated object
+1. Get list of objects, display them in a table/list
+2. Form for new objects or selecting object to popular form
+3. Form creates a new object or edits an existing object
+4. Force the list to update and retrieve new/updated object
 
 
 
 
 ### Why not React?
 
-I don't like how React forces me to do so many new things, or I feel it does at least. It's not a great or, even, objective
-reason. It's just like how I choose the Django Python path over Ruby on Rails, I just had a feeling and really enjoyed
+I don't like how React forces me to do so many new things, or I feel it does at least. That's not a great or objective
+reason. It's similar to how I choose Django + Python over Ruby on Rails, I had a feeling and really enjoyed
 one over the other. 
 
 When I use RiotJS I don't feel like I'm fighting anything, or that I'm investing hundreds of hours in a library that
-the community will abandon in a few months (Angular1 vs Angular2, leaving for React). It only took a little while to learn
+the community will abandon in a few months (Angular1 vs Angular2, then leaving for React). It only took a little while to learn
 RiotJS stuff and it was fun. I would run into problems, get lots of help from the Riot community and love how the problem
 was solved.
 
@@ -257,8 +257,8 @@ had already jumped ship.
     <img src="images/programmer.jpg" class="img-responsive" alt="Smart Programmer">
 </p>
 
-It may even be worse for backend folks, but from my perspective it seems like people aren't jumping ship
-as often. Maybe backend folks switch between frameworks/paradigms once every 2-4 years, where frontend is about every
+Jumping ship may even be worse for backend folks, but from my perspective it seems like backenders aren't switching
+tools as often. Maybe backend folks switch between frameworks/paradigms once every 2-4 years, where frontend is about every
 6 months. 
 
 It's probably just an outsider perspective, maybe it's not as bad as I think. However, I am still using the same Python
@@ -266,12 +266,10 @@ tools as when I started Django about 5 years ago. They've grown and changed slig
 library after library instead of replacing one with the other. Maybe for every ReactJS guy there's still some 
 Backbone/mootool/jquery folks wondering why people left perfectly good tools behind?!
 
-With all of that said: React may be the solution to all the problems. I can't say, I haven't taken the time to really
+With all of that said: React may be the solution to all the problems. I can't say. I haven't taken the time to really
 dive into it past a few toy things but I don't really want to. However, there are way smarter people in the community
 than myself and they seem to find React the perfect solution. They're way better frontenders than I am!
 
 React + Babel + some nice CSS libraries are probably the way to go if you're a pure frontender (or just love torture)
-but, for a mostly backend guy like me the simplicity and "sense" of Riot is irresistible. Things mostly work how they should
+but, for a mostly backend guy like me the simplicity and "feel" of Riot is irresistible. Things mostly work how they should
 and I don't have to learn a billion new things to do something I could have done using jQuery in 5 seconds.
-
-
