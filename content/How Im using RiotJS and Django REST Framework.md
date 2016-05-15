@@ -59,8 +59,8 @@ code to solving logic nightmares, because as soon as something "feels weird" you
 Smaller/single purpose components are generally much easier to wrap your head around.
 
 When I first started doing this component style, I broke things out into components for no reason. That made things feel
-clunky and the usefulness of components wasn't making sense. When I started to feel like I had trouble seeing the flow
-of logic through a form with a ton of methods I broke off parts into separate ideas. The components can talk
+clunky and the usefulness of components wasn't making sense. When the logic flow through a form with a ton of methods 
+started feeling funny: I broke the form into components with separate ideas. The components can talk
 to each other through `riot.observables` with `observable.trigger('some_event', {some: 'data'})` and 
 `observable.on('some_event', function(some_data){})`.
 
