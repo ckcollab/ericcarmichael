@@ -1,11 +1,13 @@
 
-puts-step "Running pelican"
+echo "Running pelican"
 
 if [[ -f publishconf.py ]]; then
   CONFIG_FILE="publishconf.py"
 elif [[ -f pelicanconf.py ]]; then
   CONFIG_FILE="pelicanconf.py"
 else
-  puts-warn "A pelicanconf.py or publishconf.py file is required."
+  echo "A pelicanconf.py or publishconf.py file is required."
   exit 1
 fi
+
+pelican -d -o $BUILD_DIR/public -s $CONFIG_FILE $BUILD_DIR/content | indent
