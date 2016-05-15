@@ -16,3 +16,4 @@ Fabric==1.10.1
 
 # I had to add cffi here for heroku to install libffi......
 cffi
+cryptography
