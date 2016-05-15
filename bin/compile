@@ -1,0 +1,11 @@
+
+puts-step "Running pelican"
+
+if [[ -f publishconf.py ]]; then
+  CONFIG_FILE="publishconf.py"
+elif [[ -f pelicanconf.py ]]; then
+  CONFIG_FILE="pelicanconf.py"
+else
+  puts-warn "A pelicanconf.py or publishconf.py file is required."
+  exit 1
+fi
