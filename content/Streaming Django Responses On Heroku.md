@@ -32,48 +32,19 @@ def some_endpoint(request):
 You pass `StreamingHttpResponse` a generator and it does all of the hard
 work for you. So, so handy!
 
-
-
 <p align="center" class="image-wrapper">
     <img src="images/valley_girl.jpg" class="img-responsive" alt="Valley Girl">
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Gotch'ya!
  
 Watch out for problems with your WSGI servers and buffering data.
 
-
-
-
-
-
-
-
-
 <p align="center" class="image-wrapper">
     <img src="images/buffering.jpg" class="img-responsive" alt="Buffering problems">
     <i><small>Buffering problems</small></i>
 </p>
-
-
-
-
-
-
 
 For example, with [Waitress](http://docs.pylonsproject.org/projects/waitress/en/latest/) and this code:
 
