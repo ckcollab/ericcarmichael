@@ -10,7 +10,7 @@ up with the progress during processing of some file.
 
 Not enough people use this helper! 
 
-# Streaming Django Responses
+## Streaming Django Responses
 
 Here's a small example:
 
@@ -37,7 +37,7 @@ work for you. So, so handy!
 </p>
 
 
-# Gotch'ya!
+## Gotch'ya!
  
 Watch out for problems with your WSGI servers and buffering data.
 
@@ -84,5 +84,6 @@ web: waitress-serve --port=$PORT --send-bytes=1 wsgi:application
 ```
 
 
-
+That makes waitress flush the buffer as soon as it contains >= 1 byte, 
+aka all the time with no delay!
 
