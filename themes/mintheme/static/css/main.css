@@ -33,7 +33,7 @@ h6 {
 }
 h1 {
   font-size: 50px;
-  border-bottom: 4px solid #262a2c;
+  border-bottom: 4px solid rgba(38, 42, 44, 0.68);
   margin-top: 60px;
   word-break: break-word;
 }
@@ -41,7 +41,7 @@ h2 {
   font-size: 36px;
 }
 img {
-  margin: 10px;
+  margin: 10px 0;
   border: 10px solid rgba(27, 27, 27, 0.1);
 }
 code {
@@ -228,6 +228,12 @@ blockquote {
 }
 .resume_page .fun_title {
   margin-top: 80px;
+}
+.resume_page #skill_graph {
+  margin-top: -10px;
+}
+.resume_page .skills-container p {
+  padding-bottom: 40px;
 }
 /*
  * Disqus styling
