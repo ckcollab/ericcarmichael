@@ -17,7 +17,7 @@ Title: About
 
 <img class="image-full-width" alt="Powerlifting" src="../images/powerlifting.jpg">
 
-<div class="about-text">My passion is powerlifting</div>
+<div class="about-text">I snagged a couple state records powerlifting</div>
 
 <img class="image-full-width" alt="My family" src="../images/family.jpg">
 
