@@ -7,41 +7,57 @@
  * Element styling
  */
 body {
-    background-color: #0a0a0a;
+    //background-color: #0a0a0a;
+    background-color: #DEE5E6;
     font-family: 'Merriweather', serif;
-    color: rgb(122, 122, 122);
+    //color: rgb(122, 122, 122);
+    color: #424040;
     font-size: 18px;
-    padding: 60px 0;
+    padding-bottom: 60px;
 }
+
 p {
     //text-indent: 15px;
     word-wrap: break-word;
     line-height: 35px;
 }
+
 pre {
     font-size: 15px !important;
     border: 1px solid rgba(204, 204, 204, 0.1);
 }
-a:hover { text-decoration: none; }
+
+a:hover {
+    text-decoration: none;
+}
+
 code {
-    background-color: rgba(0, 43, 54, 0.3);
-    color: rgb(131, 148, 150);
-    border: 1px solid rgba(204, 204, 204, 0.05);
+    //background-color: rgba(0, 43, 54, 0.3);
+    background-color: rgba(0, 43, 54, 0.05);
+    //color: rgb(131, 148, 150);
+    border: 4px solid rgba(204, 204, 204, 0.05);
 }
+
 h1, h2, h3, h4, h5, h6 {
-    color: @white;
+    color: #424040;
 }
+
 h1 {
     font-size: 50px;
-    border-bottom: 1px solid hsl(197, 7%, 16%);
+    border-bottom: 4px solid hsl(197, 7%, 16%);
     margin-top: 60px;
     word-break: break-word;
 }
-h2 { font-size: 36px; }
-img {
-    padding: 10px;
-    border: 1px solid #1B1B1B;
+
+h2 {
+    font-size: 36px;
 }
+
+img {
+    margin: 10px;
+    border: 10px solid rgba(27, 27, 27, 0.1);
+}
+
 code {
     // Make it wrap for mobile
     white-space: pre-wrap;
@@ -50,8 +66,14 @@ code {
     white-space: -o-pre-wrap;
     word-wrap: break-word;
 }
+
 hr {
     border-top: 1px solid rgb(38, 42, 44);
+}
+
+blockquote {
+    border-color: rgba(27, 27, 27, 0.1);
+    font-style: italic;
 }
 
 /*
@@ -60,7 +82,6 @@ hr {
 .center-block {
     float: none;
 }
-
 
 // maybe do this some day...
 .browsing-header {
@@ -77,11 +98,16 @@ hr {
  * Base stuff, header/footer
  */
 .header {
-    margin-bottom: 30px;
-    width: 500px;
+    background-color: #0a0a0a;
+    padding: 60px 0;
+    width: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+    .header-content {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .eric {
         float: left;
@@ -97,7 +123,7 @@ hr {
         font-weight: 300 !important;
         padding-top: 28px;
         border-bottom: 0;
-        color: @title_white;
+        color: rgba(171, 221, 225, 0.83);
         line-height: 1.1;
         margin-bottom: 10px;
     }
@@ -113,6 +139,13 @@ hr {
                 margin-right: 10px;
                 &:last-child {
                     margin-right: 0;
+                }
+                a {
+                    color: rgba(171, 221, 225, 0.83);
+                    border-bottom: 4px solid rgba(255, 104, 195, 0.15);
+                    &.active, &:hover {
+                        border-bottom: 4px solid #FF68C3;
+                    }
                 }
             }
         }
@@ -138,14 +171,23 @@ hr {
             }
         }
 
-        .fa-rss { color: #FF6600; }
-        .fa-twitter { color: #4099ff; }
-        .fa-facebook { color: #3B5998; }
-        .fa-linkedin { color: #0e76a8; }
-        .fa-github { color: rgb(122, 122, 122); }
+        .fa-rss {
+            color: #FF6600;
+        }
+        .fa-twitter {
+            color: #4099ff;
+        }
+        .fa-facebook {
+            color: #3B5998;
+        }
+        .fa-linkedin {
+            color: #0e76a8;
+        }
+        .fa-github {
+            color: rgb(122, 122, 122);
+        }
     }
 }
-
 
 /*
  * Articles
@@ -186,50 +228,86 @@ hr {
     }
 }
 
-
+/*
+ * About page
+ */
+.about-text {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
 
 /*
  * Resume page
  */
 .resume_page {
-    ul { list-style-type: none; }
+    ul {
+        list-style-type: none;
+    }
 
+    //.tools-and-fun {
+    //    .tools {
+    //        /*
+    //        ul { padding: 0; }
+    //
+    //        .python {
+    //            border-left: 30px solid hsl(149, 100%, 23%);
+    //            padding-left: 10px;
+    //        }
+    //        .django-rest-framework {
+    //            border-left: 20px solid hsl(149, 100%, 23%);
+    //            padding-left: 10px;
+    //            margin-left: 10px;
+    //        }
+    //        .celery {
+    //            border-left: 10px solid hsl(149, 100%, 23%);
+    //            padding-left: 10px;
+    //            margin-left: 20px;
+    //        }
+    //        .angular {
+    //            border-left: 20px solid hsl(149, 100%, 23%);
+    //            padding-left: 10px;
+    //            margin-left: 10px;
+    //        }
+    //        .knockout {
+    //            border-left: 10px solid hsl(149, 100%, 23%);
+    //            padding-left: 10px;
+    //            margin-left: 20px;
+    //        }*/
+    //    }
+    //
+    //    .fa-star {
+    //        float: left;
+    //        margin-top: 4px;
+    //        margin-left: -22px;
+    //        color: @opposite_blueish;
+    //    }
+    //}
     .tools-and-fun {
-        .tools {
-            /*
-            ul { padding: 0; }
+        ul {
+            margin: 25px 0;
+            text-align: center;
+        }
+        li {
+            display: inline;
 
-            .python {
-                border-left: 30px solid hsl(149, 100%, 23%);
-                padding-left: 10px;
+            a {
+                display: inline-block;
+                background-color: rgba(43, 101, 151, 0.1);
+                padding: 10px;
+                margin: 10px;
+                border-radius: 5px;
             }
-            .django-rest-framework {
-                border-left: 20px solid hsl(149, 100%, 23%);
-                padding-left: 10px;
-                margin-left: 10px;
+            .fa-star {
+                margin-left: 0;
+                padding-right: 5px;
             }
-            .celery {
-                border-left: 10px solid hsl(149, 100%, 23%);
-                padding-left: 10px;
-                margin-left: 20px;
-            }
-            .angular {
-                border-left: 20px solid hsl(149, 100%, 23%);
-                padding-left: 10px;
-                margin-left: 10px;
-            }
-            .knockout {
-                border-left: 10px solid hsl(149, 100%, 23%);
-                padding-left: 10px;
-                margin-left: 20px;
-            }*/
         }
 
         .fa-star {
             float: left;
             margin-top: 4px;
             margin-left: -22px;
-            color: @opposite_blueish;
+            color: #FF68C3;
         }
     }
 
@@ -256,6 +334,7 @@ hr {
 .image-wrapper {
     padding: 50px;
 }
+
 .image-full-width {
     width: 100%;
 }
