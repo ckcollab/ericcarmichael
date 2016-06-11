@@ -40,10 +40,11 @@ code {
 
 h1, h2, h3, h4, h5, h6 {
     color: #424040;
+    text-align: justify;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 38px;
     border-bottom: 4px solid rgba(38, 42, 44, 0.68);
     margin-top: 60px;
     word-break: break-word;
@@ -142,12 +143,17 @@ blockquote {
                 }
                 a {
                     color: rgba(171, 221, 225, 0.83);
-                    border-bottom: 4px solid rgba(255, 104, 195, 0.15);
+                    //border-bottom: 4px solid rgba(255, 104, 195, 0.15);
+                    padding-bottom: 1px; // to push border down a bit
                     &.active, &:hover {
-                        border-bottom: 4px solid #FF68C3;
+                        border-bottom: 4px solid rgba(255, 104, 195, 0.65);
                     }
                 }
             }
+        }
+
+        .selected {
+            border-bottom: 4px solid rgba(255, 104, 195, 0.65);
         }
     }
 
@@ -218,13 +224,17 @@ blockquote {
     }
 
     h1 {
-        line-height: 78px;
+        line-height: 60px;
     }
     h2 {
         margin-top: 60px;
     }
     h3 {
         margin-top: 35px;
+    }
+
+    p {
+        text-align: justify;
     }
 }
 
@@ -343,6 +353,10 @@ blockquote {
  */
 .image-wrapper {
     padding: 50px;
+}
+
+.img-responsive {
+    margin: 0 auto;
 }
 
 .image-full-width {

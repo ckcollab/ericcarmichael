@@ -30,9 +30,10 @@ h4,
 h5,
 h6 {
   color: #424040;
+  text-align: justify;
 }
 h1 {
-  font-size: 50px;
+  font-size: 38px;
   border-bottom: 4px solid rgba(38, 42, 44, 0.68);
   margin-top: 60px;
   word-break: break-word;
@@ -119,11 +120,14 @@ blockquote {
 }
 .header .menu ul li a {
   color: rgba(171, 221, 225, 0.83);
-  border-bottom: 4px solid rgba(255, 104, 195, 0.15);
+  padding-bottom: 1px;
 }
 .header .menu ul li a.active,
 .header .menu ul li a:hover {
-  border-bottom: 4px solid #FF68C3;
+  border-bottom: 4px solid rgba(255, 104, 195, 0.65);
+}
+.header .menu .selected {
+  border-bottom: 4px solid rgba(255, 104, 195, 0.65);
 }
 .header.stuck {
   position: fixed;
@@ -181,13 +185,16 @@ blockquote {
   margin-top: 20px;
 }
 .article h1 {
-  line-height: 78px;
+  line-height: 60px;
 }
 .article h2 {
   margin-top: 60px;
 }
 .article h3 {
   margin-top: 35px;
+}
+.article p {
+  text-align: justify;
 }
 /*
  * About page
@@ -243,6 +250,9 @@ blockquote {
  */
 .image-wrapper {
   padding: 50px;
+}
+.img-responsive {
+  margin: 0 auto;
 }
 .image-full-width {
   width: 100%;
