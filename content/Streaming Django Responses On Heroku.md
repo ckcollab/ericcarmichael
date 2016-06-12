@@ -12,7 +12,11 @@ Not enough people use this helper!
 
 ## Streaming Django Responses
 
-Here's a small example:
+Here's a small example "Valley Girl" stream
+
+<p align="center" class="image-wrapper">
+    <img src="images/valley_girl.jpg" class="img-responsive" alt="Valley Girl">
+</p>
 
 ```python
 import time
@@ -31,10 +35,6 @@ def some_endpoint(request):
 
 You pass `StreamingHttpResponse` a generator and it does all of the hard
 work for you. So, so handy!
-
-<p align="center" class="image-wrapper">
-    <img src="images/valley_girl.jpg" class="img-responsive" alt="Valley Girl">
-</p>
 
 
 ## Gotch'ya!
