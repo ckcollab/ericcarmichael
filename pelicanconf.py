@@ -17,7 +17,7 @@ FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 2
 
 GITHUB_URL = 'http://github.com/ckcollab/'
 THEME = "themes/mintheme"
@@ -48,3 +48,6 @@ STATIC_PATHS = [
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
 }
+
+# Make the site display full articles instead of summaries by setting this to 0
+# SUMMARY_MAX_LENGTH = 0

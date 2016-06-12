@@ -16,7 +16,7 @@ Another great thing about pytest is how easy it is to install plugins. You `pip 
 plugin--that's it! No configuration required.
 
 
-# My faves
+## My faves
 
 ### [xdist](https://github.com/pytest-dev/pytest-xdist)
 
@@ -83,7 +83,7 @@ py.test --instafail
 ```
 
 
-# Thanks for reading
+## Thanks for reading
 
 I know this is kind of a "who cares" blog post, but I'm trying to do at least
 one blog a month and this one popped into my head so I went for it!
