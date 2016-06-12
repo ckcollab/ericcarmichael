@@ -101,6 +101,7 @@ blockquote {
   margin-bottom: 10px;
 }
 .header .menu {
+  opacity: 0;
   display: inline-block;
   margin-left: -36px;
 }
