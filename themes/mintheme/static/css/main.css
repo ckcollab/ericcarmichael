@@ -41,10 +41,6 @@ h1 {
 h2 {
   font-size: 36px;
 }
-img {
-  margin: 10px 0;
-  border: 10px solid rgba(27, 27, 27, 0.1);
-}
 code {
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
@@ -132,6 +128,17 @@ blockquote {
 .header.stuck {
   position: fixed;
 }
+.navbar.navbar-inverse {
+  background-color: #1B1B1B;
+}
+.navbar .eric-brand-logo {
+  width: 28px;
+  height: 28px;
+}
+.navbar a.selected {
+  background-color: rgba(255, 104, 195, 0.65);
+  color: #1B1B1B !important;
+}
 .footer {
   padding-top: 120px;
 }
@@ -195,6 +202,10 @@ blockquote {
 }
 .article p {
   text-align: justify;
+}
+.article img {
+  margin: 10px 0;
+  border: 10px solid rgba(27, 27, 27, 0.1);
 }
 /*
  * About page

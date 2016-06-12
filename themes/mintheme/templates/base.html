@@ -32,7 +32,7 @@
     {% endassets %}
 </head>
 <body>
-<div class="header">
+<div class="header hidden-xs">
     <div class="header-content">
         <a href="{{ SITEURL }}/index.html">
             <img class="eric small" src="{{ SITEURL }}/theme/images/bsupesBig02.png" height="138" width="138" alt="Eric Carmichael"/>
@@ -51,8 +51,31 @@
     </div>
 </div>
 
-<div class="browsing-header">
+<div class="visible-xs">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img class="eric-brand-logo" src="{{ SITEURL }}/theme/images/bsupesSmall02.png" alt="Eric Carmichael"/>
+                </a>
+            </div>
 
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav menu">
+                    <li><a href="{{ SITEURL }}/index.html">blog</a></li>
+                    <li><a href="{{ SITEURL }}/pages/about.html">about</a></li>
+                    <li><a href="{{ SITEURL }}/pages/resume.html">résumé</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </div>
 
 {% block content %}
@@ -96,9 +119,9 @@
         //});
 
         // Apply "selected" class to proper link
-        if(window.location.href.indexOf('about.html') != -1) {
+        if (window.location.href.indexOf('about.html') != -1) {
             $(".menu a[href*='about.html']").addClass('selected');
-        } else if(window.location.href.indexOf('resume.html') != -1) {
+        } else if (window.location.href.indexOf('resume.html') != -1) {
             $(".menu a[href*='resume.html']").addClass('selected');
         } else {
             $(".menu a[href*='index.html']").addClass('selected');
