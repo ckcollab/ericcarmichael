@@ -270,6 +270,7 @@ blockquote {
 }
 .image-full-width {
   width: 100%;
+  border: 10px solid rgba(27, 27, 27, 0.1);
 }
 .youtube {
   display: block;
