@@ -1,4 +1,4 @@
-Title: Top 5 best gaming documentaries of all time
+Title: Top 5 gaming documentaries of all time
 Date: 2015-5-11 15:10
 Category: gaming
 Tags: gaming, competition, mindset
@@ -115,7 +115,7 @@ they destroyed earlier, and then come back for dramatic close wins.
 
 ## #4
 
-### The Smash Brothers Documentary
+### Word Wars
 
 [Word Wars](http://www.imdb.com/title/tt0390632/) is a movie about scrabble, which I am *kind of* stretching to fit with the rest
 of these, but the theme is the same: hard work leads to incredible things. No matter what that thing is, I can respect
