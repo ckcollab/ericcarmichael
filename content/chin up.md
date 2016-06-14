@@ -7,7 +7,7 @@ Tags: python, web development, development, motivation
 [Chin Up](https://github.com/ckcollab/chin-up) is my personal motivation tracker. Every day I rate from 1 to 10 how I am
 feeling in certain metrics like strength, flexibility, relationships and happiness.
 
-<div class="image-wrapper">
+<p class="image-wrapper">
     <img src="images/chinup/home_view.png" alt="Home View of Chin Up" class="image-full-width">
 </p>
 

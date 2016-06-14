@@ -4,7 +4,7 @@ Category: web development
 Tags: web development, development, dev ops
 
 
-I am working on putting out a serious fire now. I am getting into that weird head space where you grow as a developer,
+I am working on putting out a serious fire now. Gettin' into that weird head space where you grow as a developer,
 the place where all hair is pulled out, desks are slammed, "WHAAT!?" is screamed every 45 minutes, but you
 can't really force yourself to take a break.
 
