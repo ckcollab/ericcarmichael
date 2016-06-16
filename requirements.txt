@@ -16,7 +16,7 @@ paramiko==1.15.4
 pelican==3.3
 ply==3.8
 polished==0.0.15
-progressbar==2.3
+#progressbar==2.3
 pycrypto==2.6.1
 Pygments==1.6
 python-dateutil==2.5.3
