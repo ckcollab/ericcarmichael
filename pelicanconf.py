@@ -18,6 +18,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 DEFAULT_PAGINATION = 2
+# WITH_FUTURE_DATES = True
 
 GITHUB_URL = 'http://github.com/ckcollab/'
 THEME = "themes/mintheme"
