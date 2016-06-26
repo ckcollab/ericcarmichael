@@ -70,7 +70,7 @@ Bot pathing around the map
 
 
 Not only could the bot run without the client, that was pretty cool, but 
-also the bot required 0 configuration. Normally, you'd have to edit some 
+also the bot required no configuration. Normally, you'd have to edit some 
 .ini or something similar outlining your character, where to put items, 
 what skills to use, some kind of script to do attacks in a smart way 
 (i.e. for ranged attacks position yourself far away).
@@ -86,8 +86,8 @@ smartly be able to at least punch the monsters!
 One of the other cool pieces of this bot was the task queue based module 
 system. Every action in the game was fired off by some module, and 
 executed by being pulled off the task queue. For example, I had modules 
-Mover, Killer, Item Pickup, and Chicken. Mover module could get it's own 
-whole paragraph, but to summarize it used the non-client based map 
+Mover, Killer, Item Pickup, and Chicken. I could write a whole paragraph 
+on Mover Module, but to summarize it I used the non-client based map 
 generation to stitch together all of the required maps to get from 
 point A to point B. Meaning, you could ask the Mover module to go to the 
 last place in the game from the first point in the game, and it could 
