@@ -2,7 +2,7 @@ Title: Polished
 Date: 2014-4-18 15:10
 Category: python
 Tags: python, polished, web development, development
-Summary: <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/Yi5fHkGqe38?rel=0" frameborder="0" allowfullscreen></iframe><p align="center">Polished resume page video</p><br>The goal of [polished](http://github.com/ckcollab/polished) is to show all of the meticulous tweaks that go into a website. My resume is a good example, dozens of hours of work and tweaking to come up with this pretty basic final product. Showing that blood, sweat and hilarious tears in between should be pretty entertaining. Watch pages undulate, stretch, break, grow, and shrink into place.
+Summary: <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/Yi5fHkGqe38?rel=0" frameborder="0" allowfullscreen></iframe><p style="text-align: center;">Polished resume page video</p><br>The goal of [polished](http://github.com/ckcollab/polished) is to show all of the meticulous tweaks that go into a website. My resume is a good example, dozens of hours of work and tweaking to come up with this pretty basic final product. Showing that blood, sweat and hilarious tears in between should be pretty entertaining. Watch pages undulate, stretch, break, grow, and shrink into place.
 
 The goal of [polished](http://github.com/ckcollab/polished) is to show all of the meticulous tweaks that go into a website. My resume
 is a good example, dozens of hours of work and tweaking to come up with this pretty basic final product. Showing that
@@ -25,12 +25,12 @@ Once you've installed polished, it works like this:
 ## Examples
 
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/J4sBUXP7zoo?rel=0" frameborder="0" allowfullscreen></iframe>
-<p align="center">
+<p style="text-align: center;">
 Resume page video without polishing
 </p>
 
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/Yi5fHkGqe38?rel=0" frameborder="0" allowfullscreen></iframe>
-<p align="center">
+<p style="text-align: center;">
 Polished resume page video
 </p>
 

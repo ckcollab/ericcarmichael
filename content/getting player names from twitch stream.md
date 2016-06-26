@@ -40,7 +40,7 @@ character name.
                     image = frame.to_image()
                     features = process_image(image)
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/twitch_stream_ocr/original_stream_image.jpg" alt="Original Stream Image" class="image-full-width"><br>
 </p>
 
@@ -78,7 +78,7 @@ character name.
                 break
         return character_name_coords
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/twitch_stream_ocr/character_name_image_1.png" alt="Character name image" class="image-full-width"><br>
 </p>
 
@@ -95,7 +95,7 @@ character name.
         
         # ocr code below
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/twitch_stream_ocr/character_name_image_processed_1.png" alt="Character name image processed" class="image-full-width"><br>
 </p>
 

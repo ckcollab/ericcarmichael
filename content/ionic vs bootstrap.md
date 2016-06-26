@@ -10,7 +10,7 @@ I come from the before times. The times where PHP was it, many were switching fr
 presidency stolen and you got help from some weird phpBB forum post where the signatures took up half the screen&mdash;and
 you LIKED IT!
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/ionic_vs_bootstrap/land_before_time.jpg" alt="Land Before Time"><br>
     <i><small>I need a more ominous before picture...</small></i>
 </p>
@@ -33,7 +33,7 @@ things that definitely bug me and I'd love to learn about some alternatives.
 
 
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/ionic_vs_bootstrap/bootstrap.png" alt="Bootstrap" class="image-full-width"><br>
 </p>
 
@@ -92,7 +92,7 @@ rely on a library *most* of the time!
 
 
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/ionic_vs_bootstrap/ionic.png" alt="Ionic framework"><br>
 </p>
 
@@ -156,7 +156,7 @@ I am going to give Ionic a shot for my next app even though it only seems to sup
 it's not going terribly, here's what I have so far for my workout tracking app:
 
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/ionic_vs_bootstrap/workout_app1.png" alt="Personal Record workout app"><br>
     <i><small>Workout entry screen. This took a few hours and looks terrible but,<br> I'm happy with the performance so far!</small></i>
 </p>

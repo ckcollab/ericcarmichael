@@ -12,7 +12,7 @@ I felt like writing this because I've just realized that I now hang out in [#dja
 and actually spend most of my time giving back instead of taking. To me that's a huge achievement that deserves some
 attention, at least.
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/im_helping.jpg" alt="I'm helping!"><br>
 </p>
 

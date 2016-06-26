@@ -31,6 +31,6 @@ Finding I have to install glibc and gcc via brew first???
 
 
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/valley_girl.jpg" class="img-responsive" alt="Valley Girl">
 </p>

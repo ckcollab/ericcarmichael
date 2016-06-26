@@ -2,9 +2,9 @@ Title: Top 5 gaming documentaries of all time
 Date: 2015-5-11 15:10
 Category: gaming
 Tags: gaming, competition, mindset
-Summary: The best of gaming competitiveness, attitude, culture and raw skill. To me these are the documentaries I'll look back at like my dad looks back at Superbowl 1. <p align="center" class="image-wrapper"><img src="images/top_5_gaming_docs/brood_war.jpg" alt="StarCraft: Brood War"></p>
+Summary: The best of gaming competitiveness, attitude, culture and raw skill. To me these are the documentaries I'll look back at like my dad looks back at Superbowl 1. <p style="text-align: center;" class="image-wrapper"><img src="images/top_5_gaming_docs/brood_war.jpg" alt="StarCraft: Brood War"></p>
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/top_5_gaming_docs/brood_war.jpg" alt="StarCraft: Brood War"><br>
 </p>
 
@@ -59,7 +59,7 @@ and always promoting a positive attitude.
     frameborder="0" 
     allowfullscreen>
 </iframe>
-<p align="center">
+<p style="text-align: center;">
 <i>"My Life of Starcraft"</i>
 </p>
 
@@ -82,7 +82,7 @@ and disappointment we've all faced. Whether it's dealing with our own problems o
     frameborder="0" 
     allowfullscreen>
 </iframe>
-<p align="center">
+<p style="text-align: center;">
 <i>"The King of Kong: Fistful of Quarters"</i>
 </p>
 
@@ -105,7 +105,7 @@ they destroyed earlier, and then come back for dramatic close wins.
     frameborder="0" 
     allowfullscreen>
 </iframe>
-<p align="center">
+<p style="text-align: center;">
 <i>"The Smash Brothers Documentary"</i>
 </p>
 
@@ -129,7 +129,7 @@ hard work and tremendous sacrifice.
     frameborder="0" 
     allowfullscreen>
 </iframe>
-<p align="center">
+<p style="text-align: center;">
 <i>"Word Wars"</i>
 </p>
 
@@ -154,6 +154,6 @@ Dota 2 competitive scene. Millions of dollars are on the line!
     frameborder="0" 
     allowfullscreen>
 </iframe>
-<p align="center">
+<p style="text-align: center;">
 <i>"Free to Play: The Movie (US)"</i>
 </p>

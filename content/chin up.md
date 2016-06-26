@@ -20,7 +20,7 @@ There are two types of metrics:
 It is meant to be hosted locally/somewhere free, like [Heroku](http://heroku.com).
 
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/chinup/input.png" alt="Input data every day to Chin Up" class="image-full-width">
 </p>
 
@@ -83,7 +83,7 @@ numbers and statistics.
 
 ## Ease of use
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/chinup/pin_passcode.png" alt="django-pin-passcode screen">
 </p>
 
@@ -93,7 +93,7 @@ It logs you in to the user you define after you enter a certain passcode compose
 
 ## Stats
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/chinup/stats.png" alt="highchart stats" class="image-full-width">
 </p>
 
@@ -106,7 +106,7 @@ It logs you in to the user you define after you enter a certain passcode compose
 
 ## Correlations
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/chinup/correlations.png" alt="Correlations" class="image-full-width">
 </p>
 

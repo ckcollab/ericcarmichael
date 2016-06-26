@@ -31,7 +31,7 @@ For a senior position it might be more valuable to give them a problem and ask h
 Not sure, I'm still a Junior!
 
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/interview_tests/twoheads.png" alt="Two heads are better than one"><br>
     <i><small><a href="http://www.jisc.ac.uk/blog/identifying-resources-for-students-by-students-03-may-2013">Photo by JISC</a></small></i>
 </p>
@@ -73,7 +73,7 @@ that there was a one paragraph explanation and so much openness. No real time li
  for more details it took almost a week to get a response. The lack of response made me lose interest in that position.
 
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/interview_tests/coder.jpg" alt="Coder" class="image-full-width"><br>
     <i><small><a href="http://commons.wikimedia.org/wiki/User:Matthew_(WMF)">Photo by Matthew Roth</a></small></i>
 </p>

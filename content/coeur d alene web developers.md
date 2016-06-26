@@ -22,7 +22,7 @@ stay with my mum. I picked back up web development and here I am today about thr
 
 ## Why North Idaho?
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/cda_web_dev/killarney_lake.jpg" alt="Killarney Lake" class="image-full-width"><br>
     <i><small>Killarney Lake</small></i>
 </p>

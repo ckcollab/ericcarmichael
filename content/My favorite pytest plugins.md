@@ -41,13 +41,13 @@ scheduling tests via LoadScheduling
 
 Changes our test output from this:
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/pytest-no-spec.png" alt="Pytest without spec output"><br>
 </p>
 
 To this:
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/pytest-spec.png" alt="Pytest Spec output"><br>
 </p>
 

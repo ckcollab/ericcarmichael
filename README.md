@@ -3,7 +3,7 @@ Eric Carmichael's blog
 
 ![Picture of Eric Carmichael](content/images/kayak.jpg)
 
-<p align="center"><b>"This is like my tenth time on a kayak, I'm pretty cool"</b> <br> &mdash; Eric Carmichael on Fernan Lake, Idaho</p>
+<p style="text-align: center;"><b>"This is like my tenth time on a kayak, I'm pretty cool"</b> <br> &mdash; Eric Carmichael on Fernan Lake, Idaho</p>
 
 Environment variables
 =====================

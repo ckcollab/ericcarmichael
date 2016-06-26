@@ -14,7 +14,7 @@ Not enough people use this helper!
 
 Here's a small example "Valley Girl" stream
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/valley_girl.jpg" class="img-responsive" alt="Valley Girl">
 </p>
 
@@ -41,7 +41,7 @@ work for you. So, so handy!
  
 Watch out for problems with your WSGI servers and buffering data.
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/buffering.jpg" class="img-responsive" alt="Buffering problems">
     <i><small>Buffering problems</small></i>
 </p>

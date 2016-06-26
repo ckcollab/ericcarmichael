@@ -28,7 +28,7 @@ I haven't watched every single Pycon video so please be sure to recommend your f
 interesting ways to reverse engineering/research a huge codebase.
 
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/RZ4Sn-Y7AP8?rel=0" frameborder="0" allowfullscreen></iframe>
-<p align="center">
+<p style="text-align: center;">
 <i>"Discovering Python"</i>
 </p>
 
@@ -53,7 +53,7 @@ are looking out for my best interests. They want me to be happy and feel welcome
 and do my best&mdash;no reason to worry!
 
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/1i8ylq4j_EY?rel=0" frameborder="0" allowfullscreen></iframe>
-<p align="center">
+<p style="text-align: center;">
 <i>"It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech - PyCon 2014"</i>
 </p>
 
@@ -70,7 +70,7 @@ around with python! Imagine flying this into your family and friends via iPython
 This also goes into quite a bit of arduino stuff which is something I am trying to get into, pretty interesting.
 
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/jJ1vjr1dDqw?rel=0" frameborder="0" allowfullscreen></iframe>
-<p align="center">
+<p style="text-align: center;">
 <i>"Cheap Helicopters In My Living Room"</i>
 </p>
 
@@ -90,7 +90,7 @@ I think this guy is a pretty good speaker to model yourself after. He was confid
 really enjoyed this presentation.
 
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/R8Xmeynf1T4?rel=0" frameborder="0" allowfullscreen></iframe>
-<p align="center">
+<p style="text-align: center;">
 <i>"Cache me if you can: memcached, caching patterns and best practices"</i>
 </p>
 
@@ -104,7 +104,7 @@ friendly. My favorite part was probably the flow chart "if you have less than 50
 
 
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/O7IezJT9uSI?rel=0" frameborder="0" allowfullscreen></iframe>
-<p align="center">
+<p style="text-align: center;">
 <i>"Enough Machine Learning to Make Hacker News Readable Again"</i>
 </p>
 
@@ -123,6 +123,6 @@ What I thought stood out about her presentation was concrete ideas/details, like
 
 
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/4QOoAw6Su7M?rel=0" frameborder="0" allowfullscreen></iframe>
-<p align="center">
+<p style="text-align: center;">
 <i>"Keynote"</i>
 </p>

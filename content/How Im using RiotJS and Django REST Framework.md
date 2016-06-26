@@ -2,14 +2,14 @@ Title: How I'm using RiotJS and Django REST Framework
 Date: 2016-3-23 15:10
 Category: web development
 Tags: python, web development, riotjs, django, django rest framework, drf
-Summary: Yo man, what lib you using these days, Angular? React? Vue? Skrible? SomeOtherMadeUpNameJS? What about another one: RiotJS!? <p align="center" class="image-wrapper"><img src="images/riot.png" class="img-responsive" alt="RiotJS"></p> We'll take a high level look at the tools I'm using on my current projects for making frontend <-> backend work fast and elegantly, in my opinion ;) 
+Summary: Yo man, what lib you using these days, Angular? React? Vue? Skrible? SomeOtherMadeUpNameJS? What about another one: RiotJS!? <p style="text-align: center;" class="image-wrapper"><img src="images/riot.png" class="img-responsive" alt="RiotJS"></p> We'll take a high level look at the tools I'm using on my current projects for making frontend <-> backend work fast and elegantly, in my opinion ;) 
 
 
 Yo man, what lib you using these days, Angular? React? Vue? Skrible? SomeOtherMadeUpNameJS?
 
 What about another one: RiotJS!?
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <a href="http://riotjs.com/"><img src="images/riot.png" class="img-responsive" alt="RiotJS"></a>
 </p>
 
@@ -47,7 +47,7 @@ We'll take a high level look at the tools I'm using on my current projects for m
 </todo>
 ```
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/neapolitan.jpg" alt="HTML/JS/CSS Neapolitan"><br>
 </p>
 
@@ -159,7 +159,7 @@ router.register(r'addresses', views.AddressViewSet, 'addresses')
 
 Now I have all of these endpoints available to modify/view Addresses, WITH documentation!
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/api_docs.png" alt="API Docs"><br>
 </p>
 
@@ -253,7 +253,7 @@ looking for little communities centered around similar principles so I don't hav
 and greatest way to solve the same CRUD problems we face every day. By the time I learned AngularJS a lot of people
 had already jumped ship.
 
-<p align="center" class="image-wrapper">
+<p style="text-align: center;" class="image-wrapper">
     <img src="images/programmer.jpg" class="img-responsive" alt="Smart Programmer">
 </p>
 
