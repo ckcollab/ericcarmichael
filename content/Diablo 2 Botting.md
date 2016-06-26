@@ -10,7 +10,8 @@ nerdy Dungeons and Dragons kind of collect gear + level up + beat up
 monsters type of game. 
 
 <p style="text-align: center;" class="image-wrapper">
-    <img src="images/d2/ingame.jpg" alt="Diablo 2" style="max-width: 500px;">
+    <a href="http://us.blizzard.com/en-us/games/d2/"><img src="images/d2/ingame.jpg" alt="Diablo 2" style="max-width: 500px;"></a>
+    <br><i><small>Diablo 2 - Act 2 - Town</small></i>
 </p>
 
 ## Diablo II Automation Progression

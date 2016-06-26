@@ -274,5 +274,6 @@ blockquote {
 }
 .youtube {
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
+  border: 10px solid rgba(27, 27, 27, 0.1);
 }
