@@ -16,7 +16,7 @@ monsters type of game.
 
 ## Diablo II Automation Progression
 
-I got to make a ton of automation tools for this game:
+I happily made a few automation tools for this game:
  
  * started with [AutoIt](http://autoitscript.com) bots that moved based 
  on the pixels on the screen
@@ -30,32 +30,39 @@ I got to make a ton of automation tools for this game:
 packet injecting bot
 </p>
 
-But, the coolest bot I made was "clientless" meaning: it tracked the entire game 
+But, the coolest bot I made was "clientless," meaning: it tracked the entire game 
 state itself, replied to every packet appropriately, and didn't require 
-a game running. That meant I could run 1000's of bots on a regular 
+a game running. Now I could run 1000's of bots on a regular 
 computer instead of 2-4 games that soaked up all of the memory/CPU. 
-Normally this wouldn't be possible, most bots required the game to be 
-running to generate the maps. I made an API wrapped around a map 
-generator this is what powered my bots and made them special! 
+Normally this wouldn't be possible, because most bots required the game to be 
+running to generate the maps. I made an API wrapped around this map 
+generator and that's what made my bots extra special! 
 
-This would have been impossible without the amazing reverse engineering techniques
+This would have been impossible without the amazing reverse engineers sharing their work
 in the Diablo II hacking community. There were entire public wikis
 dedicated to definitions for each packet and memory structure. Pretty
 cool stuff to be noodling on when you're still in highschool!
 
 ## Undetectable maphack
 
-I made a neat maphack to test out the map generation API:
+Here's a neat little maphack to test out the map generation API:
 
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/pL7K58Cdo5Y?rel=0" frameborder="0" allowfullscreen></iframe>
 <p style="text-align: center;">
 Maphack
 </p>
 
+A maphack is a tool that reveals unexplored areas in the game. StarCraft,
+Counter-Strike, WarCraft, etc. all have similar tools that give
+some players an advantage over others. It's pretty lame to do in Player vs
+Player games like StarCraft, but in Diablo 2 it makes finding items less
+tedious -- a little bit less cheaty :)
+
 This maphack was novel in that it didn't do anything inside the game
-that changed memory or hooked into anything in a strange way. It simply
-got the map seed (so it could run on a totally different computer) and
-generated all the maps in the game, then stitching each together.
+that changed memory or hooked into anything in a strange way. Using the
+map seed and it was able to generate all the maps in the game, then 
+stitch each together. This was cool because I could run the maphack on
+a totally separate computer!
 
 Also, the maphack could do some not-so-undetectable things like hook
 into the game and inject "teleport this way" packets until you reach
@@ -70,7 +77,7 @@ Bot pathing around the map
 
 
 Not only could the bot run without the client, that was pretty cool, but 
-also the bot required no configuration. Normally, you'd have to edit some 
+it also required no configuration. Normally with other bots, you'd have to edit some 
 .ini or something similar outlining your character, where to put items, 
 what skills to use, some kind of script to do attacks in a smart way 
 (i.e. for ranged attacks position yourself far away).
