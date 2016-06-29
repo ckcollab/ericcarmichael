@@ -29,13 +29,15 @@ monsters type of game.
 packet injecting bot
 </p>
 
-Clientless bots tracked the entire game 
-state itself, replied to every packet appropriately, and didn't require 
-a game running. Now I could run 1000's of bots on a regular 
-computer instead of 2-4 games that soaked up all of the memory/CPU. 
+Clientless bots tracked the game state, replied to every packet appropriately, and 
+all without a real game client running. Now I could run 1000's of bots on a regular 
+computer instead of 2-4 games that soaked up all of the memory/CPU to display graphics.
+ 
+ 
 Normally this wouldn't be possible, because most bots required the game to be 
-running to generate the maps. I made an API wrapped around this map 
-generator and that's what made my bots extra special! 
+running to generate the maps. One of the secret ingredients to my bot was the ability
+to generate the game map based on the seed received when you join a game.
+I wrapped an API around this map generator and that's what made my bots extra special! 
 
 I couldn't have done any of this without the amazing reverse engineers who shared their work
 in the Diablo II hacking community. There were entire public wikis
