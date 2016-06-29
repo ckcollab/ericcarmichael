@@ -10,8 +10,8 @@ nerdy Dungeons and Dragons kind of collect gear + level up + beat up
 monsters type of game. 
 
 <p style="text-align: center;" class="image-wrapper">
-    <a href="http://us.blizzard.com/en-us/games/d2/"><img src="images/d2/ingame.jpg" alt="Diablo 2" style="max-width: 500px;"></a>
-    <br><i><small>Diablo 2 - Act 2 - Town</small></i>
+    <a href="http://us.blizzard.com/en-us/games/d2/"><img src="images/d2/ingame.jpg" alt="Diablo 2" style="max-width: 500px;"></a><br>
+    <span class="centered-label">Diablo 2 - Act 2 - Town</span>
 </p>
 
 ## Diablo II Automation
@@ -25,7 +25,7 @@ monsters type of game.
  
  
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/xqemOAJQBOU?rel=0" frameborder="0" allowfullscreen></iframe>
-<p style="text-align: center;">
+<p class="centered-label">
 packet injecting bot
 </p>
 
@@ -47,7 +47,7 @@ cool stuff to be noodling on when you're still in highschool!
 Here's the neat little maphack that tested out the map generation API:
 
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/pL7K58Cdo5Y?rel=0" frameborder="0" allowfullscreen></iframe>
-<p style="text-align: center;">
+<p class="centered-label">
 Maphack
 </p>
 
@@ -70,7 +70,7 @@ the destination.
 ## Finally, clientless bot
 
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/9epvPv-mD1Y?rel=0" frameborder="0" allowfullscreen></iframe>
-<p style="text-align: center;">
+<p class="centered-label">
 Bot pathing around the map
 </p>
 
@@ -101,7 +101,7 @@ stitch every map together giving you all of the waypoints + quests
 required to get to that location.
 
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/kGcE9SBIJ68?rel=0" frameborder="0" allowfullscreen></iframe>
-<p style="text-align: center;">
+<p class="centered-label">
 Bot picking stuff up
 </p>
 

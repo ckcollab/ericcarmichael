@@ -61,6 +61,12 @@ blockquote {
 .center-block {
   float: none;
 }
+.centered-label {
+  text-align: center !important;
+  font-size: .7em;
+  font-style: italic;
+  margin-top: -10px;
+}
 .browsing-header.affix {
   background-color: white;
   z-index: 2;
