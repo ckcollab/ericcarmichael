@@ -35,8 +35,8 @@ computer instead of 2-4 games that soaked up all of the memory/CPU to display gr
  
  
 Normally this wouldn't be possible, because most bots required the game to be 
-running to generate the maps. One of the secret ingredients to my bot was the ability
-to generate the game map based on the seed received when you join a game.
+running to see the map and path to the monsters. One of the secret ingredients to my bot was the ability
+to generate the game map based on the seed received on game join.
 I wrapped an API around this map generator and that's what made my bots extra special! 
 
 I couldn't have done any of this without the amazing reverse engineers who shared their work
