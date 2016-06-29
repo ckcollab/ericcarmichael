@@ -14,13 +14,14 @@ monsters type of game.
     <br><i><small>Diablo 2 - Act 2 - Town</small></i>
 </p>
 
-## Diablo II Automation Progression
+## Diablo II Automation
 
- * started with [AutoIt](http://autoitscript.com) bots that moved based 
+ * started at 10-12 years old with [AutoIt](http://autoitscript.com) bots that moved based 
  on the pixels on the screen
- * an AutoIt OCR (which I'll cover in another article later) that helped 
+ * then at ~15 got more complicated with an AutoIt OCR (which I'll cover in another article later) that helped 
  me pickup nice items
- * bots that no longer used pixels, instead memory and packet injection
+ * around ~17 moved onto C# bots that no longer used pixels, instead read/wrote memory and injected packets
+ * around ~19 I made a clientless bot (no game required, entire state tracked in the bot)
  
  
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/xqemOAJQBOU?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -28,7 +29,7 @@ monsters type of game.
 packet injecting bot
 </p>
 
-But, the coolest bot I made was "clientless," meaning: it tracked the entire game 
+Clientless bots tracked the entire game 
 state itself, replied to every packet appropriately, and didn't require 
 a game running. Now I could run 1000's of bots on a regular 
 computer instead of 2-4 games that soaked up all of the memory/CPU. 
@@ -36,21 +37,21 @@ Normally this wouldn't be possible, because most bots required the game to be
 running to generate the maps. I made an API wrapped around this map 
 generator and that's what made my bots extra special! 
 
-This would have been impossible without the amazing reverse engineers sharing their work
+I couldn't have done any of this without the amazing reverse engineers who shared their work
 in the Diablo II hacking community. There were entire public wikis
 dedicated to definitions for each packet and memory structure. Pretty
 cool stuff to be noodling on when you're still in highschool!
 
 ## Undetectable maphack
 
-Here's a neat little maphack to test out the map generation API:
+Here's the neat little maphack that tested out the map generation API:
 
 <iframe width="640" height="360" class="youtube" src="https://www.youtube-nocookie.com/embed/pL7K58Cdo5Y?rel=0" frameborder="0" allowfullscreen></iframe>
 <p style="text-align: center;">
 Maphack
 </p>
 
-A maphack is a tool that reveals unexplored areas in the game. StarCraft,
+A maphack is a tool that reveals unexplored areas in a game. StarCraft,
 Counter-Strike, WarCraft, etc. all have similar tools that give
 some players an advantage over others. It's pretty lame to do in Player vs
 Player games like StarCraft, but in Diablo 2 it makes finding items less
