@@ -16,8 +16,6 @@ monsters type of game.
 
 ## Diablo II Automation Progression
 
-I happily made a few automation tools for this game:
- 
  * started with [AutoIt](http://autoitscript.com) bots that moved based 
  on the pixels on the screen
  * an AutoIt OCR (which I'll cover in another article later) that helped 
