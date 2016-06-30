@@ -1,4 +1,4 @@
-Title: Clientless Diablo 2 Botting
+Title: My Clientless Diablo 2 Botting Phase
 Date: 2016-6-26 15:10
 Category: diablo 2
 Tags: diablo 2, C#, hacking
