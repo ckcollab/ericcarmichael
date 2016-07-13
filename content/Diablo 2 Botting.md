@@ -29,9 +29,9 @@ monsters type of game.
 packet injecting bot
 </p>
 
-Clientless bots tracked the game state, replied to every packet appropriately, and 
-all without a real game client running. Now I could run 1000's of bots on a regular 
-computer instead of 2-4 games that soaked up all of the memory/CPU to display graphics.
+A clientless bot tracked the game state, replied to every packet appropriately, and did this 
+all without a real game client running. Without the client running I could start thousands of bots on a regular 
+computer, instead of at most 2-4 bots that soaked up all of the memory/CPU to display graphics.
  
  
 Normally this wouldn't be possible, because most bots required the game to be 
@@ -61,12 +61,12 @@ tedious -- a little bit less cheaty :)
 
 This maphack was novel in that it didn't do anything inside the game
 that changed memory or hooked into anything in a strange way. Using the
-map seed and it was able to generate all the maps in the game, then 
-stitch each together. This was cool because I could run the maphack on
-a totally separate computer!
+map seed I was able to generate all the maps in the game, then 
+stitch each area together. Not to mention with the API we could run the maphack on
+a separate computer!
 
 Also, the maphack could do some not-so-undetectable things like hook
-into the game and inject "teleport this way" packets until you reach
+into the game and inject "teleport to X, Y" packets until you reach
 the destination.
 
 ## Finally, clientless bot
@@ -84,7 +84,7 @@ what skills to use, some kind of script to do attacks in a smart way
 (i.e. for ranged attacks position yourself far away).
 
 What my bot did, instead of reading some .ini file, was look directly at 
-your character and infer a good build! This was like Heroku for Diablo 
+your character and infer a good build! This was like [Heroku](http://heroku.com) for Diablo 
 II bots. You just pointed my bot at your character and it took over. If 
 you had, for example, the "lighting bolt" spell maxed out, the bot would 
 assume the "RangedAttack" pattern and stay at a decent distance while 
