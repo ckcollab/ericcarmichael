@@ -100,14 +100,6 @@ class AddressViewSet(mixins.ListModelMixin,
                      mixins.DestroyModelMixin,
                      viewsets.GenericViewSet):
     serializer_class = serializers.AddressSerializer
-    permission_classes = (permissions.CompanyPermission,)
-    filter_fields = ('company',)
-    method_permissions = {
-        'GET': 'can_modify_addresses',
-        'POST': 'can_modify_addresses',
-        'PUT': 'can_modify_addresses',
-        'DELETE': 'can_modify_addresses',
-    }
 
     def get_queryset(self):
         if self.request.user.is_superuser or self.request.user.is_staff:
@@ -117,9 +109,9 @@ class AddressViewSet(mixins.ListModelMixin,
         return query.order_by("name")
 ```
 
-The above code checks some permissions using a custom class I made allowing per-method permissions. Also, anyone
-poking at the endpoints can only see certain things. Super users can see all Addresses, while regular users can 
-only see Addresses for their Company. All results are ordered by name. Awesome sauce! Just the logic we need, not much
+The above code checks anyone poking at the endpoints and limits so they can only see certain things. 
+Super users can see all Addresses, while regular users can only see Addresses for their Company. 
+All results are ordered by name. Awesome sauce! Just the logic we need, not much
 boiler plate coding. I love Python + DRF!
 
 
