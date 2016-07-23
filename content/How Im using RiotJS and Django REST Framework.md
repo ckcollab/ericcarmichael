@@ -190,7 +190,14 @@ In our riot tag we'll display some addresses:
 ```html
 <addresses>
     <ul>
-        <li each={ addresses }>{ name } { address_1 } { address_2 } { city } { state } { zip_code }</li>
+        <li each={ addresses }>
+            { name } 
+            { address_1 } 
+            { address_2 } 
+            { city }
+            { state } 
+            { zip_code }
+        </li>
     </ul>
     
     var self = this
