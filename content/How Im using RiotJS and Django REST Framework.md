@@ -136,10 +136,14 @@ class AddressSerializer(serializers.ModelSerializer):
 
     def validate(self, attrs):
         if 'is_bill_to' not in attrs and 'is_ship_to' not in attrs:
-            raise ValidationError("Must select at least one option: bill to, ship to, or both")
+            raise ValidationError(
+                "Must select at least one option: bill to, ship to, or both"
+            )
 
         if Address.objects.filter(company=attrs['company'], name=attrs['name']):
-            raise ValidationError("That name is already in use! Please select a different name.")
+            raise ValidationError(
+                "That name is already in use! Please select a different name."
+            )
 
         return super().validate(attrs)
 ```
