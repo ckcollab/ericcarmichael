@@ -18,35 +18,41 @@ We'll take a high level look at the tools I'm using on my current projects for m
 ### What is RiotJS?
 
 [RiotJS](http://riotjs.com/) is "a user interface micro-library for web components." You use it like this:
- 
+
+In RiotJS you make everything as web components. Web components are just a custom tag (like div, a, span, p, etc.) defined so that it has self contained javascript and CSS, like this:
+
 ```html
-<todo>
-  <h3>TODO</h3>
+<a-riot-tag>
+    <!-- The HTML section -->
+    <div onclick="{ clicked }">I'm a dumb tag, click me!</div>
+    
+    <!-- The javascript section <script> tag is not required, 
+    can just end HTML section and start doing JS! -->
+    <script>
+        // Keep a reference to the tag
+        var self = this;
 
-  <ul>
-    <li each={ item, i in items }>{ item }</li>
-  </ul>
-
-  <form onsubmit={ handleSubmit }>
-    <input>
-    <button>Add #{ items.length + 1 }</button>
-  </form>
-  <script>
-    this.items = []
-
-    handleSubmit(e) {
-      var input = e.target[0]
-      this.items.push(input.value)
-      input.value = ''
-    }
-  </script>
-  <style>
-    h3 {
-        text-decoration: underline;
-    }
-  </style>
-</todo>
+        self.clicked = function() {
+            alert('Weee, ya clicked it!')
+        }
+    </script>
+    
+    <!-- CSS Section -->
+    <style>
+        a-riot-tag {
+            background-color: red;
+        }
+    </style>
+</a-riot-tag>
 ```
+
+This structure is actually incredibly beautiful, to me at least. When components feel like they're getting spaghetti, you break functionality down into smaller pieces. For a start, say you want to make an address CRUD (Create Retrieve Update Delete) form, you'd probably have components like:
+
+* `<address-list>` to list out each address
+* `<address-form>` to display details for an address and edit them
+* `<address>` to display details about the address
+
+You may further break down address into many components, like maybe a `<phone-number>` or `<full-name>` component with special formatting, properties, options, actions, whatever.
 
 <p style="text-align: center;" class="image-wrapper">
     <img src="images/neapolitan.jpg" alt="HTML/JS/CSS Neapolitan"><br>
