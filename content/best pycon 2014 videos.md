@@ -10,17 +10,6 @@ the best videos (in my *very humble* opinion)!
 I haven't watched every single Pycon video so please be sure to recommend your favorites in the comments!
 
 
-<style>
-    .youtube {
-        padding-top: 40px;
-    }
-
-    .youtube + p {
-        padding-bottom: 100px;
-    }
-</style>
-
-
 
 ## Python Macgyvering
 
