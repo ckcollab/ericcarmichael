@@ -94,7 +94,7 @@ smartly be able to at least punch the monsters!
 One of the other cool pieces of this bot was the task queue based module 
 system. Every action in the game was fired off by some module, and 
 executed by being pulled off the task queue. For example, I had modules 
-Mover, Killer, Item Pickup, and Chicken. I could write a whole paragraph 
+Mover, Killer, Item Pickup, and Chicken. I could write a whole blog 
 on Mover Module, but to summarize it I used the non-client based map 
 generation to stitch together all of the required maps to get from 
 point A to point B. Meaning, you could ask the Mover module to go to the 
