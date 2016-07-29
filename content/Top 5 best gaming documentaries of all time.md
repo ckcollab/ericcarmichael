@@ -28,18 +28,6 @@ requires personal sacrifice as well.
 
 
 
-<style>
-    .youtube {
-        padding-top: 40px;
-    }
-
-    .youtube + p {
-        padding-bottom: 100px;
-    }
-</style>
-
-
-
 ## #1 
 
 ### My Life of Starcraft - Day[9] Daily #100
