@@ -17,7 +17,7 @@ We'll take a high level look at the tools I'm using on my current projects for m
 
 ### What is RiotJS?
 
-[RiotJS](http://riotjs.com/) is "a user interface micro-library for web components." You use it like this:
+[RiotJS](http://riotjs.com/) is "a user interface micro-library for web components."
 
 In RiotJS you make everything as web components. Web components are just a custom tag (like div, a, span, p, etc.) defined so that it has self contained javascript and CSS, like this:
 
