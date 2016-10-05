@@ -239,9 +239,9 @@ window.EVENTS.on('force_update_address_list', do_update_address_list);
 From an even higher level the approach I've used on most CRUD pages goes like this:
 
 1. Get list of objects, display them in a table/list
-2. Form for new objects or selecting object to popular form
-3. Form creates a new object or edits an existing object
-4. Force the list to update and retrieve new/updated object
+2. Form for new objects or selecting object to populate form
+3. Form creates a new object or updates an existing object
+4. Force the list to update with new/updated object
 
 
 
@@ -277,7 +277,7 @@ library after library instead of replacing one with the other. Maybe for every R
 Backbone/mootool/jquery folks wondering why people left perfectly good tools behind?!
 
 With all of that said: React may be the solution to all the problems. I can't say. I haven't taken the time to really
-dive into it past a few toy things but I don't really want to. However, there are way smarter people in the community
+dive into it past a few toy things and I don't really want to. However, there are way smarter people in the community
 than myself and they seem to find React the perfect solution. They're way better frontenders than I am!
 
 React + Babel + some nice CSS libraries are probably the way to go if you're a pure frontender (or just love torture)
