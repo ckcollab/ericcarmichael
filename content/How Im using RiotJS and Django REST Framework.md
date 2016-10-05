@@ -5,7 +5,7 @@ Tags: python, web development, riotjs, django, django rest framework, drf
 Summary: Yo man, what lib you using these days, Angular? React? Vue? Skrible? SomeOtherMadeUpNameJS? What about another one: RiotJS!? <p style="text-align: center;" class="image-wrapper"><img src="images/riot.png" class="img-responsive" alt="RiotJS"></p> We'll take a high level look at the tools I'm using on my current projects for making frontend <-> backend work fast and elegantly, in my opinion ;) 
 
 
-Yo man, what lib you using these days, Angular? React? Vue? Skrible? SomeOtherMadeUpNameJS?
+Yo man, what lib you using these days, Angular? React? Vue? SquanchJS? Some&shy;MadeUp&shy;NameJS?
 
 What about another one: RiotJS!?
 

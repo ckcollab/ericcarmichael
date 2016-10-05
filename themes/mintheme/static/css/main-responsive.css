@@ -43,6 +43,10 @@
   }
 }
 @media all and (max-width: 660px) {
+  .article p {
+    font-size: 16px;
+    line-height: 28px;
+  }
   .header {
     text-align: center;
   }
