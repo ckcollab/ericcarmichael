@@ -43,6 +43,9 @@
   }
 }
 @media all and (max-width: 660px) {
+  .navbar-nav > li > a {
+    text-align: center;
+  }
   .article,
   .article p {
     /* specifying p here so line height is nicely overriden */
