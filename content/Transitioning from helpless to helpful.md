@@ -57,7 +57,7 @@ me around.
 What will keep me around is this:
 
 ```text
-rpkilby: Babysuperman, thanks for the help
+rpkilby: thanks for the help
 
 xcyclist: Yes, that did it. Thanks.
 
