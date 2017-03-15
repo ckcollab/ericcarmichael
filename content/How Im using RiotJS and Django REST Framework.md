@@ -23,21 +23,20 @@ In RiotJS you make everything as web components. Web components are just a custo
 
 ```html
 <a-riot-tag>
-    <!-- The HTML section -->
+    <!-- HTML on top -->
     <div onclick="{ clicked }">I'm a dumb tag, click me!</div>
     
-    <!-- The javascript section <script> tag is not required, 
-    can just end HTML section and start doing JS! -->
+    <!-- JS in the middle (<script> tag is not required) -->
     <script>
         // Keep a reference to the tag
-        var self = this;
+        var self = this
 
         self.clicked = function() {
             alert('Weee, ya clicked it!')
         }
     </script>
     
-    <!-- CSS Section -->
+    <!-- CSS -->
     <style>
         a-riot-tag {
             background-color: red;
