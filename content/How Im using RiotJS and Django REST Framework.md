@@ -67,8 +67,13 @@ Smaller/single purpose components are generally much easier to wrap your head ar
 When I first started doing this component style, I broke things out into components for no reason. That made things feel
 clunky and the usefulness of components wasn't making sense. When the logic flow through a form with a ton of methods 
 started feeling funny: I broke the form into components with separate ideas. The components can talk
-to each other through `riot.observables` with `observable.trigger('some_event', {some: 'data'})` and 
-`observable.on('some_event', function(some_data){})`.
+to each other through `riot.observables` with 
+
+```observable.trigger('some_event', {some: 'data'})```
+
+and 
+
+```observable.on('some_event', function(some_data){})```
 
 For example, I recently built a `<table>` of users where you could click a row and it would appear in a `<form>`, then
 when saved it would update the `<table>`. As I was building this all out it started to feel cumbersome trying to keep 
@@ -148,7 +153,7 @@ class AddressSerializer(serializers.ModelSerializer):
 ```
 Above we're defining which fields we'll pull from the model. Whether the fields are required, what is valid data, etc.
 can be determined from the model fields. For example, you could have the `is_bill_to` and `is_ship_to` fields marked
-with `default=False` and DRF with automatically mark them as not required, as they have a default. We also check to 
+with `default=False` and DRF will automatically mark them as not required, as they have a default. We also check to 
 make sure at least one of the previously mentioned options is picked, as well as making sure names are unique to
 companies. The unique relation of name->business was be automatically inferred from the Model (awesome!) but the error
 message relayed to the user I didn't like, so I wrote this custom instead.
