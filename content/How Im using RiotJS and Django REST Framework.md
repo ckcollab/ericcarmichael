@@ -69,11 +69,15 @@ clunky and the usefulness of components wasn't making sense. When the logic flow
 started feeling funny: I broke the form into components with separate ideas. The components can talk
 to each other through `riot.observables` with 
 
-```observable.trigger('some_event', {some: 'data'})```
+```javascript
+observable.trigger('some_event', {some: 'data'})
+```
 
 and 
 
-```observable.on('some_event', function(some_data){})```
+```javascript
+observable.on('some_event', function(some_data){})
+```
 
 For example, I recently built a `<table>` of users where you could click a row and it would appear in a `<form>`, then
 when saved it would update the `<table>`. As I was building this all out it started to feel cumbersome trying to keep 
