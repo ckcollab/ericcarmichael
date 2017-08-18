@@ -4,8 +4,8 @@ Category: diablo 2
 Tags: diablo 2, C#, hacking
 
 
-My favorite project (ever) was a Diablo II botting system I made ~10 
-years ago. If you've never played the game Diablo II, it's your typical 
+My favorite project (ever) was a Diablo II botting system I made in 2008. The summer before sophomore year of college. 
+If you have never played the game Diablo II, it's your typical 
 nerdy Dungeons and Dragons kind of collect gear + level up + beat up 
 monsters type of game. 
 
