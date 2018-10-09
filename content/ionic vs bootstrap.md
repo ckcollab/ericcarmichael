@@ -6,8 +6,7 @@ Summary: I am writing this as a tool to help me learn more about [Ionic](http://
 
 
 
-I come from the before times. The times where PHP was it, many were switching from *tables* to *css*, Al Gore had his
-presidency stolen and you got help from some weird phpBB forum post where the signatures took up half the screen&mdash;and
+I come from the before times. The times where PHP was it, many were switching from *tables* to *css*, Bush was president and you had to get help from some weird phpBB forum post where the signatures took up half the screen&mdash;and
 you LIKED IT!
 
 <p style="text-align: center;" class="image-wrapper">
