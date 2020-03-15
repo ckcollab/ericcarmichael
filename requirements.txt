@@ -12,7 +12,7 @@ lesscpy==0.10.2
 lxml==3.4.4
 Markdown==2.4
 MarkupSafe==0.19
-paramiko==1.15.4
+paramiko==2.0.9
 pelican==3.3
 ply==3.8
 polished==0.0.15
