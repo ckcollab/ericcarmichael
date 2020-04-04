@@ -15,6 +15,8 @@ export PELICAN_SITE_URL="http://ericcarmichael.com"
 Getting started
 ===============
 
+This is meant to be ran on [netlify](netlify.com)
+
 `pip install -r requirements.txt`
 
 `export PELICAN_SITE_URL="file:///Users/you/your/blog/dir/output"`
@@ -28,6 +30,16 @@ make html
 ```
 
 writes static content to `output/`
+
+
+```bash
+make check
+```
+
+iterates over every `a` tag to 
+verify it has a URL and that URL exists, I wrote this mainly to catch myself
+from missing small details, like 
+[forgetting to fill in a `[text](url)` tag](http://www.ericcarmichael.com/writing-my-first-python-package.html)!
 
 ```bash
 make regenerate
@@ -43,10 +55,7 @@ cleans `output/`
 make publish
 ```
 
-makes site using production settings. also, iterates over every `a` tag to 
-verify it has a URL and that URL exists, I wrote this mainly to catch myself
-from missing small details, like 
-[forgetting to fill in a `[text](url)` tag](http://www.ericcarmichael.com/writing-my-first-python-package.html)!
+makes site using production settings
 
 
 # TODO
