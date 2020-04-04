@@ -1,2 +1,4 @@
-progressbar==2.3
-existence
+-r requirements.txt
+
+progressbar==2.5.0
+existence==0.3.0
