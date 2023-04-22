@@ -4,7 +4,7 @@ title: About
 
 # About
 
-<!-- Imags 960x604 -->
+<!-- Imags 960x406 -->
 
 <div class="text-center">
 <img class="image-full-width" alt="Me, my kiddo Austen and my wife Kat" src="../images/eric_and_kat.jpg">
@@ -25,4 +25,7 @@ title: About
 
 <img class="image-full-width" alt="My family" src="../images/family.jpg">
 <div class="about-text">And the most important thing is my family (I'm the bumblee bee)</div>
+
+<img class="image-full-width" alt="My family" src="../images/keedz.jpg">
+<div class="about-text">~10 years after making this site, look at all these kids!</div>
 </div>
