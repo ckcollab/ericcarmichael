@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
+
 import os
 
 
-AUTHOR = u'Eric Carmichael'
-SITENAME = u"Eric Carmichael's Nerdery"
+AUTHOR = 'Eric Carmichael'
+SITENAME = "Eric Carmichael's Nerdery"
 SITEURL = os.environ.get("PELICAN_SITE_URL", "")
 
 TIMEZONE = 'Europe/Paris'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -49,6 +49,9 @@ STATIC_PATHS = [
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
 }
+
+# Make pages/*.html not require 'title' attribute thing
+READERS = {'html': None}
 
 # Make the site display full articles instead of summaries by setting this to 0
 # SUMMARY_MAX_LENGTH = 0
